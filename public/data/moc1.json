@@ -1,0 +1,686 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "2IXtu1oHLArsq3C-wDfq-etCAeY",
+  "nextPageToken": "CBQQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 20
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DuLeBzs4xaLBdaVjrE9uMumrk6k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1KQYJVr0A_s"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-09T08:00:00Z",
+        "channelId": "UCCb6W2FU1L7j9mw14YK-9yg",
+        "title": "너도 추운 거 싫어하는 애였구나",
+        "description": "요즘 나가는 모습을 거의 못봐서 홈캠 돌려봤더니 아니나다를까 거의 나가질 않더라고요! 나가도 5분만에 호다닥 들어오는 모습이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1KQYJVr0A_s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1KQYJVr0A_s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1KQYJVr0A_s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "김메주와 고양이들",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-09T08:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2ZLMbX18GCaOCTe8DXXwbByACfc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VoJ2htf4_ic"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-07T11:00:19Z",
+        "channelId": "UCUw1C3Jn6RTS9pR899ufATQ",
+        "title": "무릎에 올려달라고 애교 부리는 고양이",
+        "description": "애교로 집사 녹이는 무릎냥이 베리와 코비. 고양이가 무릎에 올라오면 내려갈 생각을 안해요 ㅎㅎㅎ #고양이 #개냥이 #무릎냥이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VoJ2htf4_ic/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VoJ2htf4_ic/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VoJ2htf4_ic/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "그루밍데이 고양이cat vlog",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-07T11:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QBWBnwPu26cCtQqM_c5ibULeutE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "V_qlAm5k-_8"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-09T11:00:33Z",
+        "channelId": "UC7lP46vHWIdZbT0X7Ud0AAA",
+        "title": "밥 먹여 키워놨더니 싸우고 난리 난 새끼 고양이들 | 쫀니와 쪼꼬미들 | 🏝️베베집사 제주살이",
+        "description": "고양이 #마일로 #베베집사 2024 털복숭이 달력: https://www.oround.com/product/6427787 인스타그램: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/V_qlAm5k-_8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/V_qlAm5k-_8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/V_qlAm5k-_8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "털복숭이들과 베베집사 Bebe8Cats",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-09T11:00:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2XWg39g7VP44UU3A30sbb-zu82Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tcgtofA6nwI"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-09T02:00:20Z",
+        "channelId": "UCLmeWUramUY8YAQ6A40Ionw",
+        "title": "고양이가 직접 찍은 1인칭 브이로그⭐️ ep.4",
+        "description": "instagram @muuuuuuji 타 임 라 인 0:00 꽉꽉꽉꽉 인트로 0:07 엄마아빠가 집을 비웠다. 2:31 엄마아빠 없어도 바쁜 무막이 3:41 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tcgtofA6nwI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tcgtofA6nwI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tcgtofA6nwI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "무지막지한 막무家네",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-09T02:00:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "f_VGpGtKr68f6T5ktnJp9TfvlSg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bYKxM1uB2qM"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-17T09:00:27Z",
+        "channelId": "UCcU-0hQ81hho0vUPIY9iKhw",
+        "title": "광견병을 조심해야 하는 이유..",
+        "description": "\"역대 체고\"에서는 역대급이라는 수식이 붙을만한 세상의 모든 것들을 소개하고 있습니다. 여러분들이 궁금한 어떤 소재든 댓글로 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bYKxM1uB2qM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bYKxM1uB2qM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bYKxM1uB2qM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "역대 체고",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-17T09:00:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kWVN2Bq-JINrx1YqBecOF3krt78",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vFTS45p-TRU"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-25T02:00:21Z",
+        "channelId": "UCLmeWUramUY8YAQ6A40Ionw",
+        "title": "고양이가 직접 찍은 1인칭 브이로그⭐️ep.3 생각보다 열심히 살아서 기특하다.",
+        "description": "instagram @muuuuuuji ————————————————————————— (  bgm) Music by 브금대통령 Music provided by ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vFTS45p-TRU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vFTS45p-TRU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vFTS45p-TRU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "무지막지한 막무家네",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-25T02:00:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4zFFkkAAx1QpofW7c9LIrPbkHds",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rJUgc0O9e0c"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-26T11:00:42Z",
+        "channelId": "UCUw1C3Jn6RTS9pR899ufATQ",
+        "title": "보일러 켰더니 고양이가 또 드러누웠어요",
+        "description": "따뜻한 바닥을 좋아하는 고양이들. 냥이들이 방바닥에서 누워서 자고 있는 모습이 너무 사랑스럽고 귀여워요. 올 겨울을 더 따뜻하게 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rJUgc0O9e0c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rJUgc0O9e0c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rJUgc0O9e0c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "그루밍데이 고양이cat vlog",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-26T11:00:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Q7TrHSUOQlawDvO2ssYBkZdfC9s",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCa2LU4aoi3Nr1cYLMnMFONw"
+      },
+      "snippet": {
+        "publishedAt": "2019-06-09T12:12:58Z",
+        "channelId": "UCa2LU4aoi3Nr1cYLMnMFONw",
+        "title": "고양이산책",
+        "description": "7마리 고양이와 함께하는 고양이 예능 채널! 굿즈구매는 http://catoutdoor.co.kr -고양이 프로필- 레오 ♀ 5살 코리안숏컷 크림 ♂ 4살 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/cdjHNpZR8Bf_pJb595lDHOBwFjC6Ldbp7hi3bh8qrsYZASHBcXrQQEAtn-C67iNvX1wuUvda_A=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/cdjHNpZR8Bf_pJb595lDHOBwFjC6Ldbp7hi3bh8qrsYZASHBcXrQQEAtn-C67iNvX1wuUvda_A=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/cdjHNpZR8Bf_pJb595lDHOBwFjC6Ldbp7hi3bh8qrsYZASHBcXrQQEAtn-C67iNvX1wuUvda_A=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "고양이산책",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-06-09T12:12:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Kfiiqf2C1Vkl94Y8ZUxY6lsVxZQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "484b8WynqrQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-08T09:29:06Z",
+        "channelId": "UCCEuL92vSfyMmoAN53fB0WA",
+        "title": "잠든 집사 옆에서 고양이가 보인 소름돋는 행동",
+        "description": "닥터하랑 인스타 @doctorharang 토리 인스타 @hantori920 브금출처 1. Music provided by 브금대통령 Track : Track : Memory Of ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/484b8WynqrQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/484b8WynqrQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/484b8WynqrQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "하랑스토리 HarangStory",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-08T09:29:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3d0aslTX5Voi4Od0QwbEAnM3zjM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "sW4lotg25Q8"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-05T22:30:05Z",
+        "channelId": "UCnedA2d93PYULCC0ObrvwpQ",
+        "title": "길생활이 힘든건지? 포획틀에 스스로 들어가 나오지 않는 품종묘 #놀숲고양이#구조",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sW4lotg25Q8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sW4lotg25Q8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sW4lotg25Q8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "새롬하우스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-05T22:30:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JuVsMZcVbv8qcqufSY12UWBYzJ8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RmErclm3JjM"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-11T10:38:18Z",
+        "channelId": "UChz95FXbJk3No_QhAOCoiFA",
+        "title": "꺾이지 않는 고양이들",
+        "description": "동물밈 #동물짤.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RmErclm3JjM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RmErclm3JjM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RmErclm3JjM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "힐링해요 동물의 짤",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-11T10:38:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8UPor8MJoJL0-4DAaGtsfwesqiI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vp3FLlbW--w"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-28T08:55:55Z",
+        "channelId": "UChz95FXbJk3No_QhAOCoiFA",
+        "title": "지상 최강의 동물 고양이",
+        "description": "동물밈 #동물짤.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vp3FLlbW--w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vp3FLlbW--w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vp3FLlbW--w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "힐링해요 동물의 짤",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-28T08:55:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qon10vIk2TxNDBjn9qRTqiAJcaQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4shWDHRCUz0"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-07T12:15:45Z",
+        "channelId": "UCjaIE7ws5jK3N1nelJlwyiA",
+        "title": "꼼짝없이 갇혀 지내던 두 아기 고양이의 입양을 서두를 수밖에 없던 이유..",
+        "description": "신비와 금비가 임시 보호로 으집사네 집에 들어온 지 한 달이 지난 지금. 지금까지 으냥네 집을 거쳐갔던 수많은 임보 냥이들이 무색할 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4shWDHRCUz0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4shWDHRCUz0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4shWDHRCUz0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "으으냥",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-07T12:15:45Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ErE59h1JVR_MaiGoBzKEr7opzWc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BZWtYXFqewM"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-25T13:01:54Z",
+        "channelId": "UCN60FLJZEUmoEuuF_j8q1ZA",
+        "title": "[EP.1] 이 영상 보기전에는 고양이 절대 입양하지 마세요!(고양이 단점 10가지)",
+        "description": "고양이를 입양하기 전에 꼭 알아야 할 단점에 대해서 영상을 올려봤습니다. 강아지만 20년 이상 키워본 견주로서 고양이는 너무 다른 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BZWtYXFqewM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BZWtYXFqewM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BZWtYXFqewM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "무릎 위에 고양이 아토",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-25T13:01:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "t5KBQ-HDbc7mfDdP0shy_sYDBbk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H99YIZeT-bs"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-04T12:00:09Z",
+        "channelId": "UChz95FXbJk3No_QhAOCoiFA",
+        "title": "우울할 때 보는 동물들",
+        "description": "동물밈 #동물짤.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H99YIZeT-bs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H99YIZeT-bs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H99YIZeT-bs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "힐링해요 동물의 짤",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-04T12:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "u3Bl7NEsNj8WQ8k69X-4crsFVa8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Prs4qOmoX9M"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-09T03:00:21Z",
+        "channelId": "UChhHNLwMoT8XgV5v8JSHa3g",
+        "title": "촬영 오셨다가 아기 고양이에게 간택 당한 카메라 감독님 ㅋㅋㅋ 탄빵이 입양신청이 들어왔어요",
+        "description": "오늘은 김쫀떡 바나나 대하는 최근 모습부터 탄빵이 입양 문의, 남집사의 험난한 출근길 등 많은 내용이 담겨있는 영상이에요!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Prs4qOmoX9M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Prs4qOmoX9M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Prs4qOmoX9M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "김쫀떡",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-09T03:00:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "K5Ah2BsGDlyRlOwNLdcbeBSWcfs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "t9r9nmmi5-w"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-24T05:00:28Z",
+        "channelId": "UCFcqNiSjbOpnYCTCACZ7bhQ",
+        "title": "&quot;생사 확인만 하고 지내요&quot; 길에서 구조한 길고양이를 집에 데려왔지만, 가까워질 수 없는 집사.. 4년간 옷장에서 숨어 사는 고양이│#왜그러냥귀엽개",
+        "description": "4년동안 옷장 속에 숨어 사는 꼬맹이 이유는 사람에 대한 공포심 때문! 과연 녀석에겐 무슨 사연이? 고양이들에게 퍼진 감기와 옷장 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/t9r9nmmi5-w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/t9r9nmmi5-w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/t9r9nmmi5-w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 세나개 x 고부해 - 왜그러냥? 귀엽개!",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-24T05:00:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jSlE9MjH_tzOX2MaCv_2GSRoE8g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8vaFNd-nN_s"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-05T13:15:00Z",
+        "channelId": "UCdFt_Vrew1qW_1tNdP9tMzQ",
+        "title": "아빠가 칼퇴하고 집에 달려오는 이유 😂❤️",
+        "description": "아빠가 퇴근하고 눈썹을 휘날리며 집에 달려오는 이유?! 털손주가 목빠지게 기다리고 있기 때문이에요~ 할비 방 문턱 앞에서 하루종일 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8vaFNd-nN_s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8vaFNd-nN_s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8vaFNd-nN_s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "이웃집고양이 덕배",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-05T13:15:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "meKPGm1ufNM15hC9zvbovcZau1Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pSZzRZUGIUI"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-20T14:22:06Z",
+        "channelId": "UCG1DvHd4dwcCGmamlWBefaA",
+        "title": "코쿤 고양이 챌린지",
+        "description": "shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pSZzRZUGIUI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pSZzRZUGIUI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pSZzRZUGIUI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "연제갈량",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-20T14:22:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HnW_R9Rmmv0d4o8KSHboSNUgwvY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4H9L6ks_XoE"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-03T11:00:03Z",
+        "channelId": "UCUw1C3Jn6RTS9pR899ufATQ",
+        "title": "여전히 아기같은 고양이",
+        "description": "고롱고롱 콧소리 내면서 꾹꾹이 하는 베리와 코비. 여전히 아기같은 고양이들의 모습을 영상에 담았어요 #고양이 #개냥이 #고양이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4H9L6ks_XoE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4H9L6ks_XoE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4H9L6ks_XoE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "그루밍데이 고양이cat vlog",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-03T11:00:03Z"
+      }
+    }
+  ]
+}

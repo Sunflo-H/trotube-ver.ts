@@ -1,0 +1,1062 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "uX3jSEW327rsUw9eTjefURpCRKQ",
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "h1kgkjnobK1lNpumVPLPrcVOt9k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mAsqhNWso0I"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-30T08:00:15Z",
+        "channelId": "UCNWhKqo1nNaRiDfv64pDwbA",
+        "title": "파닥피쉬로 물고기 사냥을 배운 치즈",
+        "description": "베리앤펫 파닥 피쉬를 사용하여, 물고기 사냥을 배우는 치즈....\n치즈는 과연 물고기 사냥에 성공할까요?\n\n스토어베리 \n'베리앤펫 파닥피쉬'\nhttps://smartstore.naver.com/junpasang/products/5176501428",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mAsqhNWso0I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mAsqhNWso0I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mAsqhNWso0I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/mAsqhNWso0I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/mAsqhNWso0I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "내 생활 안에, 스토어베리",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-11-30T08:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qD9lIwyixhRS79pcLklz10NRRtc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XGbF5FZrEWI"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-22T03:24:55Z",
+        "channelId": "UCicKQUi8h4NI81wDmrDBD4A",
+        "title": "한국인 마님만 인천공항에 남겨두고 급 생이별하게 되었어요",
+        "description": "[올리버쌤 도서로 학습하기]\n(신간) 올리버쌤의 미국식아이영어습관365\nhttps://url.kr/udpt4h\n올리버쌤의 영어 회화 일력 365\nhttps://bit.ly/389tTbX\n올리버쌤의 영어 꿀팁\nhttp://bit.ly/2QigDck\n\n[인스타그램] \n올리버쌤 http://instagram.com/oliverkorea \n마님툰 http://instagram.com/manim_toon\n체리 http://instagram.com/cherry_bbobbo\n\n[유기견 입양 신청 및 해외 이동봉사 문의]\n메일 2798catherine@gmail.com\n인스타 instagram.com/volunteer_abcd",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XGbF5FZrEWI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XGbF5FZrEWI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XGbF5FZrEWI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XGbF5FZrEWI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/XGbF5FZrEWI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "올리버쌤",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-22T03:24:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LbbJRvfdlPqkyKtphGOxFgpjB7E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FhFsuwas3wA"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-16T15:52:22Z",
+        "channelId": "UCUw1C3Jn6RTS9pR899ufATQ",
+        "title": "사랑받고 싶어 서럽게 우는 고양이",
+        "description": "고양이도 질투를 하나요? 한 고양이만 챙겼더니… 야옹 야옹 울고 난리가 났어요\n\n#고양이 #고양이울음소리 #고양이애교\n\n고양이 이모티콘 : https://www.sbsb.kr/Groomingday\n인스타그램 : https://instagram.com/groo.mingday\n연락처 : groomingdaygirl@gmail.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FhFsuwas3wA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FhFsuwas3wA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FhFsuwas3wA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/FhFsuwas3wA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/FhFsuwas3wA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "그루밍데이 고양이cat vlog",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-16T15:52:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aoGyBbjYMhDoXSj_8prm-qsn3Ng",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HiHJOn_A1pI"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-28T10:26:04Z",
+        "channelId": "UCUw1C3Jn6RTS9pR899ufATQ",
+        "title": "아기고양이 장난감 배틀 (고양이 터널) cat vlog",
+        "description": "아기고양이에게 장난감 터널을 사줬어요. 방울이 달려있는 고양이 터널인데 코비와 베리가 서로 차지하려고 장난을 치더라고요. 그 모습이 귀여워서 영상에 담아보았어요. 브리티쉬숏헤어인 베리와 먼치킨인 코비. 둘 중에 누가 터널을 차지했을까요? 집사들은 고양이 쟁탈전을 보면서 결국 장난감 한 개를 더 사러 나갑니다.\n\n#아기고양이 #고양이장난감 #고양이터널\n★ 구독하기(Subscribe) :  https://bit.ly/2urV0gm\n\n그루밍데이 고양이 소개\n\n이름 : 베리 (브리티시숏헤어 골드 아기고양이)\n특징 : 예쁨, 똑똑함\n특기 : 골골송 부르기\n좋아하는것 : 스킨쉽\n싫어하는것 : 혼자 있기\n\n이름 : 코비 (먼치킨 새끼고양이)\n특징 : 귀여움, 먹보\n특기 : 그루밍 하기\n좋아하는것 : 베리 \n싫어하는것 : 낯선사람\n\nBGM2\nMusic provided by 브금대통령\nTrack : 알쏭달쏭 - https://youtu.be/Q_F3O2h0xrg",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HiHJOn_A1pI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HiHJOn_A1pI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HiHJOn_A1pI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/HiHJOn_A1pI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/HiHJOn_A1pI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "그루밍데이 고양이cat vlog",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-28T10:26:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1ROZpUFIrTQ2DEupsxsXUz5FGEE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yskdUU5DA48"
+      },
+      "snippet": {
+        "publishedAt": "2020-08-17T02:31:52Z",
+        "channelId": "UCUw1C3Jn6RTS9pR899ufATQ",
+        "title": "물방울이 신기한 고양이들",
+        "description": "귀여운 고양이 코비와 베리는 물방울이 신기해요. 매일, 집사를 따라와서 물을 바꾸는 걸 지켜본답니다. 이 사랑스러운 고양이들 좀 보세요\n\n#고양이 #cat #kitten\n귀여운 고양이, 먼치킨, 브리티쉬숏헤어, 웃긴 고양이, cute cats\n구독하기 :  https://bit.ly/2urV0gm\n인스타그램 : https://instagram.com/groo.mingday\n연락처 : groomingdaygirl@gmail.com\n\n그루밍데이 고양이 소개 @groo.mingday\n\n고양이 이름 : 코비 (먼치킨 숏레그)\n특징 : 귀여움, 먹보\n좋아하는것 : 음식 \n\n고양이 이름 : 베리 (브리티시숏헤어 골드)\n특징 : 예쁨, 똑똑함\n좋아하는것 : 낮잠\n\nBGM\nMusic provided by 브금대통령\nTrack : 룰루~랄라~ - https://youtu.be/xEAyskB7lfg\nTrack : 내 꿈은 말이지 - https://youtu.be/8US4NF1bzlE\nTrack : 소라게의 모험 - https://youtu.be/rtqwpjoRXNc\nTrack : 말괄량이의 하루 - https://youtu.be/_VicFEDQc0U\n\nMusic provided by 샛별\nSong : 샛별 - Love me! / https://youtu.be/iquF_LLIkFs",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yskdUU5DA48/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yskdUU5DA48/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yskdUU5DA48/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/yskdUU5DA48/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/yskdUU5DA48/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "그루밍데이 고양이cat vlog",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-08-17T02:31:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "j1gP5TAi7kPBhDwlHluSYo2WroY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "R9M2-el9vA8"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-24T04:03:13Z",
+        "channelId": "UCGVJlR3--_XjmpnfVS2cTSA",
+        "title": "小猫咪太调皮，扯窗帘扣沙发，最后主人让它跳段舞作为惩罚",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/R9M2-el9vA8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/R9M2-el9vA8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/R9M2-el9vA8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/R9M2-el9vA8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/R9M2-el9vA8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "喵星人淦淦的日常",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-24T04:03:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "H62vz7n20YV1Xsf6OG-csfiviGI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "54aNwGJBALM"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-04T09:38:20Z",
+        "channelId": "UCUw1C3Jn6RTS9pR899ufATQ",
+        "title": "고양이들 앞에서 빨래를 개면 생기는 일",
+        "description": "고양이들은 빨래를 갤 때마다 옆에 와서 구경해요. 빨래로 장난치는 고양이들! 고양이도 뽀송뽀송한 수건이 좋은가봐요.\n\n#고양이 #cat #먼치킨\n반려묘, 고양이 빨래, 고양이털, 브리티쉬숏헤어, 귀여운 고양이, 그루밍데이\n구독하기 :  https://bit.ly/2urV0gm\n인스타그램 : https://instagram.com/groo.mingday\n연락처 : groomingdaygirl@gmail.com\n\n그루밍데이 고양이 소개 @groo.mingday\n\n고양이 이름 : 코비 (먼치킨 숏레그)\n특징 : 귀여운 고양이\n\n고양이 이름 : 베리 (브리티시숏헤어 골드)\n특징 : 예쁜 고양이\n\nBGM\nMusic provided by 브금대통령\nTrack : Ready To Nap - https://youtu.be/UZE2a9gTsDk\nTrack : Happy Family - https://youtu.be/2vAJDpUbAK4\nTrack : Vitamin B - https://youtu.be/4DkjikXj1n8\nTrack : 햄스터의 모험 - https://youtu.be/xfFzi-ryDVQ\nTrack : 나는야 장난꾸러기 - https://youtu.be/MYLjqNApdTE\nTrack : Naptime! - https://youtu.be/3fBloNLBL2Y​\nTrack : Black Comedy - https://youtu.be/gHlSF3VpB9U\nTrack : 말괄량이의 하루 - https://youtu.be/_VicFEDQc0U\nTrack : 룰루~랄라~ - https://youtu.be/xEAyskB7lfg\n\nMusic provided by 샛별\nSong : 샛별 - Magical / https://youtu.be/QMmrEO5aOYw\n\n각국어 번역 자막 제작 :\n****컨텐츠 제작의 마무리는 컨텐츠플라이! 글로벌 진출을 위한 최고의 파트너,\nCONTENTSFLY에서 제작되었습니다.\n[https://www.contentsfly.com](https://www.contentsfly.com/)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/54aNwGJBALM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/54aNwGJBALM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/54aNwGJBALM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/54aNwGJBALM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/54aNwGJBALM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "그루밍데이 고양이cat vlog",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-11-04T09:38:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XQjp5SH1wHlogJm9NJXD8NOZvBg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "h2e-asHeK5E"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-06T12:54:52Z",
+        "channelId": "UCXl8CrpDDSpaAfjftnOZvmA",
+        "title": "브리티쉬 숏헤어 고양이 성장과정",
+        "description": "안녕하세요 여러분 \n앞으로 지디의 영상들 기대해주세요~!\n\n*지디 정보\n-지디 생일: 7월 9일 \n-품종: 브리티쉬 숏헤어\n-성별: 수컷\n\n\n\n\n\n\n#고양이 #고양이성장 #cat",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/h2e-asHeK5E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/h2e-asHeK5E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/h2e-asHeK5E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/h2e-asHeK5E/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/h2e-asHeK5E/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "지디네",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-06T12:54:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "R2T7EdrX_nbpoOqBFeBbObWlNPw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7Z0BHA42Wpw"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-04T19:39:23Z",
+        "channelId": "UCicKQUi8h4NI81wDmrDBD4A",
+        "title": "미국 국경을 걸어서 건너려는 한국인 마님… 그리고 미국 국경경찰(CBP)",
+        "description": "♥ 지마켓과 올리버쌤이 함께하는 특별한 북토크가 열립니다!\n단 하루 열리는 랜선 북토크에서 만나요! (도서를 구매하지 않아도 참가 신청 가능)\n\n♥ 지마켓 특별 사은품!\n지마켓에서 도서를 구매하시는 분들께 지마켓 단독 사은품 \n체리 캐릭터 영단어 카드(30장)를 증정해드립니다.\n\n♥ 지마켓과 함께하는 특별한 랜선 북토크 참여 방법\n북토크 일정: 12월 7일 오전 10시\n신청 기간: 11월 28일 ~ 12월 5일\n당첨자 발표: 12월 6일 (개별 연락,문자 발송)\n신청 방법: '온라인 북토크 신청서'를 작성해주세요.\n\n참가신청 링크: http://rpp.gmarket.co.kr/?exhib=60866\n\n[올리버쌤 도서로 학습하기]\n(신간) 올리버쌤의 미국식아이영어습관365\nhttps://url.kr/udpt4h\n올리버쌤의 영어 회화 일력 365\nhttps://bit.ly/389tTbX\n올리버쌤의 영어 꿀팁\nhttp://bit.ly/2QigDck\n\n[인스타그램] \n올리버쌤 http://instagram.com/oliverkorea \n마님툰 http://instagram.com/manim_toon\n체리 http://instagram.com/cherry_bbobbo\n\n[유기견 입양 신청 및 해외 이동봉사 문의]\n메일 2798catherine@gmail.com\n인스타 http://instagram.com/volunteer_abcd",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7Z0BHA42Wpw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7Z0BHA42Wpw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7Z0BHA42Wpw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/7Z0BHA42Wpw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/7Z0BHA42Wpw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "올리버쌤",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-04T19:39:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FD3kUeG3X6cUTd3mAK2_DW7iLKc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "08vsFPnXPCk"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-28T08:56:03Z",
+        "channelId": "UCUw1C3Jn6RTS9pR899ufATQ",
+        "title": "아빠만 졸졸 따라다니는 아기고양이",
+        "description": "밥 달라고 야옹야옹 우는 코비. 잠시도 가만히 있지 않는 아기냥이들 ㅋㅋㅋㅋ\n\n고양이 이모티콘 : https://www.sbsb.kr/Groomingday\n인스타그램 : https://instagram.com/groo.mingday\n연락처 : groomingdaygirl@gmail.com\n\n#고양이 #아기고양이 #고양이울음소리\n\n\n\n\n———\nBGM \n브금대통령(BgmPresident)\n꼬마 공주와 꼬마 왕자 (https://youtu.be/wMDd-UH3YH8)\n쫄랑쫄랑 산책길 (https://youtu.be/29a-JyzsHwA)\n변명의 변명 (https://youtu.be/gmnqyAtLRpQ)\n맛있다 달고나커피 (https://youtu.be/lhgAmp0S-TU)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/08vsFPnXPCk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/08vsFPnXPCk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/08vsFPnXPCk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/08vsFPnXPCk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/08vsFPnXPCk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "그루밍데이 고양이cat vlog",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-28T08:56:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ekkb4buF0UKIyUpHeS-EaT9_jGg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "786tMVvOa5g"
+      },
+      "snippet": {
+        "publishedAt": "2021-03-04T08:18:34Z",
+        "channelId": "UCVkPqHd3Yuw2n7Do0LILQWQ",
+        "title": "새를 본 고양이 울음소리",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/786tMVvOa5g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/786tMVvOa5g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/786tMVvOa5g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/786tMVvOa5g/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/786tMVvOa5g/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "그르릉나옹",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-03-04T08:18:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "L9IVyqIVzdtNLl0vU-9Vx2fjxhg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZUB9xW2wrV0"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-04T16:51:45Z",
+        "channelId": "UCHTWf1OkXWoCaLT3vmoqq4A",
+        "title": "뚱군의 뱃살은 위험지대 입니다ㅜ",
+        "description": "#고양이 #냥냥이 #cat #meow #munchkin #猫 #페르시안 #먼치킨 #बिलाई #म्याऊँ",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZUB9xW2wrV0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZUB9xW2wrV0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZUB9xW2wrV0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ZUB9xW2wrV0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ZUB9xW2wrV0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "냥냥맘 (meow mom)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-04T16:51:45Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "z9zqMxbUFfwS9bMfQ5Bmsx2nPMI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zvoOMTip2SY"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-05T05:24:41Z",
+        "channelId": "UC5gTPCT93QHfWyrKC4q2h0A",
+        "title": "강한 눈보라 속 고양이는 버틸 수 있을까?",
+        "description": "강한 눈보라가 예보된 날이었습니다\n고양이에게 작은 집을 마련해 줬지만\n그걸로 살아가기는 부족함이 보여\n좀 더 괜찮은 방법으로 보호해 주기로 했습니다\n\n\n#고양이 #겨울고양이 #길고양이",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zvoOMTip2SY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zvoOMTip2SY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zvoOMTip2SY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zvoOMTip2SY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zvoOMTip2SY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "동시대 만난 우리들",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-05T05:24:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UfWbJUL5qPjfbEId-YndEAo0q9g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BAiVX_G2m4s"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-26T02:27:05Z",
+        "channelId": "UCYZv9v_bwfMGc64gLRe34OA",
+        "title": "[습속친구들] 고양이 마음까지 훔친 재주 많은 하얀 쥐 ‘토이’ #순간포착세상에이런일이 #WhatonEarth #SBSstory",
+        "description": "1067회 200123 재주 많은 하얀 쥐 ‘빌리×토이’\n\n신통방통한 묘기를 부리는 토이와 빌리의 재주!\n쥐라면 고양이를 무서워한다고 알려져 있지만, \n토이는 고양이를 무서워하기는커녕~ 겁도 없이 먼저 다가간다!? \n이제껏 어디서도 본 적 없는 기상천외한 순간 같이 보실래요?👀\n\n\nSBS 화요일 교양 ‘순간포착 세상에 이런 일이’\n☞ 오후 9시 본 방송\n\n#순간포착세상에이런일이 #순간포착쥐와고양이 #재주많은쥐",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BAiVX_G2m4s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BAiVX_G2m4s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BAiVX_G2m4s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/BAiVX_G2m4s/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/BAiVX_G2m4s/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "SBS STORY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-26T02:27:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "W86ElEkc5KOtyWZl-Tj9dW0pFcg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1wAPSRd1yEo"
+      },
+      "snippet": {
+        "publishedAt": "2016-01-29T08:13:52Z",
+        "channelId": "UCwMXUGZsBfy7fqbPrAV21pQ",
+        "title": "배고픈 새끼고양이와 어미고양이에게 한끼식사를 대접해봤습니다",
+        "description": "눈치보느라 제대로 못 먹네요\n\n이 영상을 퍼가기는 허용하나 저작권자 허락없이 변경/배포 할 시 법적책임을 물을 수 있습니다\nCopyright (c) 2016 by 관찰남 All videos cannot be copied without permission",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1wAPSRd1yEo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1wAPSRd1yEo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1wAPSRd1yEo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/1wAPSRd1yEo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/1wAPSRd1yEo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "관찰남",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-01-29T08:13:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "guuOIYQrpmgG9TrbocC_4W3DO8c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "famG7ded3KI"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-07T05:52:32Z",
+        "channelId": "UCYZv9v_bwfMGc64gLRe34OA",
+        "title": "[습속친구들] 병원 안 가면 집도 안 가개! 🐶동물 병원 러버 강쥐 ‘이부끄’💖 #순간포착세상에이런일이 #WhatonEarth #SBSstory",
+        "description": "1207회 211116  동물병원 러버 강쥐 ‘이부끄’\n\n동물 병원이 보이기만 하면, 들어가고 싶다고 문 앞에 눌러앉는 부끄.\n이에 집에가자고 실랑이를 벌이는 게 일상이라고!\n동물 병원을 너무 좋아하는 부끄 이야기 같이 보실래요~?👀\n\nSBS 화요일 교양 ‘순간포착 세상에 이런 일이’\n☞ 오후 9시 본 방송\n\n#순간포착세상에이런일이 #순간포착천재견 #천재견캐시",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/famG7ded3KI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/famG7ded3KI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/famG7ded3KI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/famG7ded3KI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/famG7ded3KI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "SBS STORY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-07T05:52:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mrnYDmtDjSybKPPJ7fIFeFqjdPM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Te2pOxGpVdQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-19T06:17:53Z",
+        "channelId": "UCYZv9v_bwfMGc64gLRe34OA",
+        "title": "[습속친구들] 😮볼일 보는걸 보자니 별 볼일이다;; 희한하게 볼일 보는 동물 친구들 모음! 😺🐶 #순간포착세상에이런일이 #WhatonEarth #SBSstory",
+        "description": "00:00  1123회 210302 변기에서 볼일 보는 까꽁이\n12:23 992회 180705 서서 볼일 보는 땅콩이\n23:45 1056회 191024 물구나무 선 채로 볼일 보는 깐돌이\n\n볼일 보는 걸 보자니 별 볼일이다 싶은\n희한하게 볼일 보는 동물 친구들 같이 보실래요?👀\n\nSBS 화요일 교양 ‘순간포착 세상에 이런 일이’\n☞ 오후 9시 본 방송\n\n#순간포착세상에이런일이 #순간포착별볼일 #변기에서볼일보는냥",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Te2pOxGpVdQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Te2pOxGpVdQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Te2pOxGpVdQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Te2pOxGpVdQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Te2pOxGpVdQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "SBS STORY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-19T06:17:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "H78CmHHSIG8WmuJCg0MZbF_Mg3k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9aQIEqBbYsA"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-21T14:13:36Z",
+        "channelId": "UCx2Z48IaY41K-UBLzVnL90A",
+        "title": "밤이는 패션리더",
+        "description": "#고양이 #밤이",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9aQIEqBbYsA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9aQIEqBbYsA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9aQIEqBbYsA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/9aQIEqBbYsA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/9aQIEqBbYsA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "멍밤",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-21T14:13:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "p7AHh0wrGr_k1-QV4cbvjffLlHw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iYRx5KD9uSQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-06T23:09:26Z",
+        "channelId": "UCicKQUi8h4NI81wDmrDBD4A",
+        "title": "오늘부터 공식적으로 찐 한국인이 된 아기 체리 | 출생신고 하기",
+        "description": "미국에서 태어나서 미국 국적만 가지고 있던 체리. \n그런 체리가 18개월이 넘어서야 처음으로 한국에 왔어요.\n드디어 한국의 동사무소에 가서 출생신고를 하려고 합니다.\n출생신고를 해야 주민등록번호를 받아볼 수 있거든요. \n그런데 출생신고가 끝나자마자 자기 나라라고 아주 떵떵거리는 체리.\n그 모습이 너무 귀여워요. \n\n[올리버쌤 도서로 학습하기]\n(신간) 올리버쌤의 미국식아이영어습관365\nhttps://url.kr/udpt4h\n올리버쌤의 영어 회화 일력 365\nhttps://bit.ly/389tTbX\n올리버쌤의 영어 꿀팁\nhttp://bit.ly/2QigDck\n\n[인스타그램] \n올리버쌤 http://instagram.com/oliverkorea \n마님툰 http://instagram.com/manim_toon\n체리 http://instagram.com/cherry_bbobbo\n\n[유기견 입양 신청 및 해외 이동봉사 문의]\n메일 2798catherine@gmail.com\n인스타 instagram.com/volunteer_abcd",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iYRx5KD9uSQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iYRx5KD9uSQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iYRx5KD9uSQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/iYRx5KD9uSQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/iYRx5KD9uSQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "올리버쌤",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-06T23:09:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EYbpI9RtkZohsbFVt80f87ymG2c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "s2EQ_a79NiQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-02T09:36:12Z",
+        "channelId": "UCUw1C3Jn6RTS9pR899ufATQ",
+        "title": "전기장판의 따뜻함을 알아버린 집고양이",
+        "description": "날씨가 추워서 고양이에게 전기장판을 깔아줬더니 ㅋㅋㅋㅋㅋ\n\n고양이 이모티콘 : https://www.sbsb.kr/Groomingday\n인스타그램 : https://instagram.com/groo.mingday\n연락처 : groomingdaygirl@gmail.com\n\n#고양이 #개냥이 #고양이전기장판\n\n\n\n\n———\nBGM \n브금대통령(BgmPresident)\n심심해 (https://youtu.be/IVkaxURLuUw)\n변명의 변명 (https://youtu.be/gmnqyAtLRpQ)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/s2EQ_a79NiQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/s2EQ_a79NiQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/s2EQ_a79NiQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/s2EQ_a79NiQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/s2EQ_a79NiQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "그루밍데이 고양이cat vlog",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-02T09:36:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Xz3mmVw9awHW13FIX7zwQ-7knBI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TCVdvuq9ayo"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-04T03:55:44Z",
+        "channelId": "UCPlCk1Ys4pPZ12Lp1JcJC9w",
+        "title": "초보집사와 삼방이가 함께한 100일의 시간♡",
+        "description": "무럭무럭 자라는 아기고양이 삼방이의 \n소중한 순간들을 담아보았습니다.\n\n\n\n\n\n\n\n\n\n\n🎵Music provided by 브금대통령\n🎵Track : 아쭈꾸임 - https://youtu.be/RONJ2CQJNro\n🎵Track : 내가 만든 쿠키 - https://youtu.be/nsJX92Riyyc\r\n🎵Track : 가을바람 - https://youtu.be/-tx6q_4KGxs",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TCVdvuq9ayo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TCVdvuq9ayo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TCVdvuq9ayo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/TCVdvuq9ayo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/TCVdvuq9ayo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "삼방동 삼방이네",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-04T03:55:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2M5c8iB6JsLStF97gDz6wqBELjE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9ci17NtVlu0"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-10T06:21:53Z",
+        "channelId": "UC9IKvHjkm182uBWq4lAeXUA",
+        "title": "추위에 애타게 울던 아기고양이 냥줍 ... 그리고 1년후",
+        "description": "🎵Music provided by 브금대통령\n🎵Track : My Star - https://youtu.be/BQmpRD0MNOA\n\n🎵Music provided by 브금대통령\n🎵Track : Lazy Morning - https://youtu.be/EXyyYIT3Gy8\n\n🎵Music provided by 브금대통령\n🎵Track : 새해에는 - https://youtu.be/bINZIdlQTj0\n\n키위 https://youtu.be/uTbaD6tMjUQ\n\nClaudio The Worm\n\n🎵Music provided by 브금대통령\n🎵Track : 조별과제 - https://youtu.be/wLuWmPrJkSk\n\n레몬 https://youtu.be/Unfqj83RUOQ\n당근 https://youtu.be/oj4OGAAcBb4",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9ci17NtVlu0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9ci17NtVlu0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9ci17NtVlu0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/9ci17NtVlu0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/9ci17NtVlu0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "누리루키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-10T06:21:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IcaPGZpnUJ8mWS9jTw8mxgF-dBc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LA5E9y1HYus"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-26T02:23:58Z",
+        "channelId": "UCUw1C3Jn6RTS9pR899ufATQ",
+        "title": "집사가 잘때 고양이들이 하는 사랑스러운 행동",
+        "description": "밤에 고양이가 이러고 있을줄 꿈에도 몰랐어요. 잘때마다 고양이들에게 사랑 듬뿍 받는 집사들ㅋㅋㅋ\n\n이모티콘 : https://www.sbsb.kr/Groomingday\n인스타그램 : https://instagram.com/groo.mingday\n연락처 : groomingdaygirl@gmail.com\n\n#고양이 #개냥이 #고양이애교\n\n\n\n\n———\nBGM \nMusic provided by 브금대통령\nTrack : Sigorzav - https://youtu.be/5G0q5n0PCdc\nTrack : 내 꿈은 말이지 - https://youtu.be/8US4NF1bzlE\nTrack : 나른한 오후 - https://youtu.be/MuAoD-pBzHI\nTrack : 내가 만든 쿠키 - https://youtu.be/nsJX92Riyyc\nTrack : 수사 반장 - https://youtu.be/wkXKGV9qJ6Y\nTrack : 말괄량이의 하루 - https://youtu.be/_VicFEDQc0U\nTrack : Naptime in Spring - https://youtu.be/kXh5mC3_WBY\nTrack : 알콩달콩 - https://youtu.be/AX3XPwAFRVI\nTrack : Lazy Morning - https://youtu.be/EXyyYIT3Gy8",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LA5E9y1HYus/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LA5E9y1HYus/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LA5E9y1HYus/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LA5E9y1HYus/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LA5E9y1HYus/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "그루밍데이 고양이cat vlog",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-26T02:23:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ihRop_qHS_SvkZL2Ubq1RYfkYzM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cdRiMAcJc38"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-28T07:20:21Z",
+        "channelId": "UCUw1C3Jn6RTS9pR899ufATQ",
+        "title": "고양이와 크리스마스 트리 만들면 생기는 일",
+        "description": "크리스마스 트리를 처음 보는 냥이들 반응이 무척이나 귀여워요 :)\n\n고양이 이모티콘 : https://www.sbsb.kr/Groomingday\n인스타그램 : https://instagram.com/groo.mingday\n연락처 : groomingdaygirl@gmail.com\n\n#고양이 #귀여운고양이 #크리스마스트리\n\n\n\n\n———\nBGM \n브금대통령(BgmPresident) \nChristmas in London (https://youtu.be/RApyspnIXoU)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cdRiMAcJc38/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cdRiMAcJc38/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cdRiMAcJc38/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/cdRiMAcJc38/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/cdRiMAcJc38/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "그루밍데이 고양이cat vlog",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-28T07:20:21Z"
+      }
+    }
+  ]
+}

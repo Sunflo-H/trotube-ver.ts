@@ -1,0 +1,693 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "BSwBU1XxTM91t_1w9uXQVD3inTI",
+  "nextPageToken": "CFAQAA",
+  "prevPageToken": "CDwQAQ",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 20
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "k7gtnp3QDMy2wBh4RhhW3pAevOk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "y5t_U-J5lbM"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-18T11:45:26Z",
+        "channelId": "UChz95FXbJk3No_QhAOCoiFA",
+        "title": "물리엔진 오류난 고양이들 #동물짤",
+        "description": "동물밈.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/y5t_U-J5lbM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/y5t_U-J5lbM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/y5t_U-J5lbM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "힐링해요 동물의 짤",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-18T11:45:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vMn13oeyvAy1vlBsUdj308-9EI0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "r_bMehtsh7g"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-08T10:00:51Z",
+        "channelId": "UCOp66Vup07X0YziXaaxqs2A",
+        "title": "고양이에게 핸드폰이 생겼다",
+        "description": "선명한 사진 촬영이 가능한 갤럭시 S23 FE 출시 다양한 혜택과 콜라보 액세서리 케이스가 궁금하면 삼성닷컴에서 확인 가능 #갤럭시# ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/r_bMehtsh7g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/r_bMehtsh7g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/r_bMehtsh7g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "haha ha",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-08T10:00:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Jnv7kSGoyT_DxdT-siTws30NmEg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "k6TScxomuKI"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-27T09:41:47Z",
+        "channelId": "UCr4CatqympoNVEzGirUSgfg",
+        "title": "낮잠 자다 뱀을 본 고양이 행동",
+        "description": "shorts #고양이 #cat.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/k6TScxomuKI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/k6TScxomuKI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/k6TScxomuKI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "톡톡 동물 지식",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-27T09:41:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yz0dWOkJS6WxBcG5ExRW5v9oRcQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NQlgbNbs9ic"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-07T07:00:13Z",
+        "channelId": "UCxu0fpGZPtRRPv7OQFEPPNw",
+        "title": "방구석 고양이 스포츠 대회",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NQlgbNbs9ic/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NQlgbNbs9ic/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NQlgbNbs9ic/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "하얀너구리",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-07T07:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lKWrxeNBqZUXN1fdfCoBY4PZ1Js",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1t7Adam0-y0"
+      },
+      "snippet": {
+        "publishedAt": "2021-02-24T13:52:38Z",
+        "channelId": "UC9Pbq29jodMR2GHgo1dUhow",
+        "title": "혼쭐나는 고양이",
+        "description": "누나한테 대들다간 혼쭐나요! 이름: 뚱이 성별: 남 나이: 7살 (2014년생) 몸무게: 5.8 (아침 공복 기준) #고양이#코리안숏헤어#코숏 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1t7Adam0-y0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1t7Adam0-y0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1t7Adam0-y0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "뚱이누나",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-02-24T13:52:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5J8nZj1zqjltNxq4RI5fp4QCp4c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XKIzl5NIck8"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-07T09:00:19Z",
+        "channelId": "UC9To9Gwtaz8H7IFw1n5SI4Q",
+        "title": "처음으로 집사한테 혼나는 고양이 김백설ㅋㅋㅋ",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XKIzl5NIck8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XKIzl5NIck8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XKIzl5NIck8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "백설이네",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-07T09:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6HmYqncI-AyD521rItP-dbv0HQg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VcuVzEqCyCM"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-11T23:20:41Z",
+        "channelId": "UCkinYTS9IHqOEwR1Sze2JTw",
+        "title": "&quot;이러다가 결혼을 하네&quot;…고양이가 이어준 &#39;깜짝&#39; 사연 / SBS / 뉴스딱",
+        "description": "중고 거래를 위해 만났다 결혼까지 이어진 연인의 사연이 화제가 되고 있습니다. 여러 온라인 커뮤니티에 '중고 거래하다가도 결혼 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VcuVzEqCyCM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VcuVzEqCyCM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VcuVzEqCyCM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS 뉴스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-11T23:20:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Kfiiqf2C1Vkl94Y8ZUxY6lsVxZQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "484b8WynqrQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-08T09:29:06Z",
+        "channelId": "UCCEuL92vSfyMmoAN53fB0WA",
+        "title": "잠든 집사 옆에서 고양이가 보인 소름돋는 행동",
+        "description": "닥터하랑 인스타 @doctorharang 토리 인스타 @hantori920 브금출처 1. Music provided by 브금대통령 Track : Track : Memory Of ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/484b8WynqrQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/484b8WynqrQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/484b8WynqrQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "하랑스토리 HarangStory",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-08T09:29:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ikSe10GJ25o5xnJN3YkClSnWVGk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hSdW3i72Pt0"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-10T10:00:33Z",
+        "channelId": "UCyTFJCsEfTAwD6X-6h5ZfPQ",
+        "title": "[장근석 제작] ep.04 세상에 이런 일이 | 손을 주는 고양이가 있다?! | 장근석 고양이🐱 | 장고로그 | 우리 집 개냥이 보러 올래?",
+        "description": "팔불출 집사의 브이로그. 세상 사람들 우리 장고 예쁨 모르는 사람 없게 해주세요! #장근석 #고양이 #싱가푸라 #개냥이 #집사의하루.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hSdW3i72Pt0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hSdW3i72Pt0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hSdW3i72Pt0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "나는 장근석",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-10T10:00:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Iwi_R2OVf0eLrUzCfYtse7Qq4sI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OG7AG8Ak9vs"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-26T08:08:00Z",
+        "channelId": "UCr4CatqympoNVEzGirUSgfg",
+        "title": "카드 속임수를 본 아기 고양이 반응",
+        "description": "shorts #고양이 #cat.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OG7AG8Ak9vs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OG7AG8Ak9vs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OG7AG8Ak9vs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "톡톡 동물 지식",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-26T08:08:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cYf-gZ2NTzeDagQV_tuVswn87rM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oYnFTuHcj-0"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-26T13:30:21Z",
+        "channelId": "UCWYzc_p0GgfCepIWDHGFmEg",
+        "title": "[#유퀴즈온더블럭] 🐶강아지 vs 고양이🐱 누가 더 귀여운가! 수의사 설채현&amp;나응식 자기님의 끝나지 않는 논쟁🤣 #설채현 #나응식",
+        "description": "tvN 대유잼 영상은 나중에 보면 늦는다! 지금 꼭! 볼 동영상 #지금꼭볼동영상 #지꼭동 #유퀴즈온더블럭 #설채현 #나응식 we're ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oYnFTuHcj-0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oYnFTuHcj-0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oYnFTuHcj-0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디글 :Diggle",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-26T13:30:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xh00eSHVzKLJmCMa9Hxs-pZ_lfg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "C1BrbnrzG8A"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-27T10:13:10Z",
+        "channelId": "UCs4wUolAHK6DONFmUBJIOHA",
+        "title": "고양이 바보테스트😹Cats IQ Test #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/C1BrbnrzG8A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/C1BrbnrzG8A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/C1BrbnrzG8A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "세아쌤Seah Ssam",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-27T10:13:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "C3XBIUY0MZCBGxp5yd2qZxPCLqg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TzcfrbYGPY8"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-17T09:00:16Z",
+        "channelId": "UCd4FmcWIVdWAy0-Q8OJBloQ",
+        "title": "고양이 포치타",
+        "description": "풀영상 보러가기 ▶︎▶︎ https://youtu.be/K_2n-SGo37E ○ 3D펜 사나고 샵 https://smartstore.naver.com/sanago ○ 2021 NEW 사 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TzcfrbYGPY8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TzcfrbYGPY8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TzcfrbYGPY8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "사나고 Sanago",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-17T09:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "68TABX08dy_pfYpLI59rNafM6N8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qW0zZxPyRBk"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-16T09:27:58Z",
+        "channelId": "UCd89rgOpJ5Mth-rCMst6NoA",
+        "title": "웃음을 다시 찾아주고 떠나는 고양이와의 이별 #shorts",
+        "description": "웃음을 다시 찾아주고 떠나는 고양이와의 이별.사랑하는 나의 고양이 딸기 떠나는 길. 고양이와의 인연.. #고양이 #길고양이 #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qW0zZxPyRBk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qW0zZxPyRBk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qW0zZxPyRBk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "내인생특별한 고양이들 연집사TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-16T09:27:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LsGAHQ6_xoTcKPSVvvmiS4vX5ZQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "u2c01cKTk1U"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-09T08:45:02Z",
+        "channelId": "UCdlmHGKsIRuODanePdD-52Q",
+        "title": "한국보다 고양이가 살기 좋은 나라",
+        "description": "shorts #동물.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/u2c01cKTk1U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/u2c01cKTk1U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/u2c01cKTk1U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "갑꿍이 : 갑자기 궁금한 이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-09T08:45:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dgXim0VdNS2DaFGUlOegfi1lK0s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "y5QghK3gDIE"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-02T16:54:16Z",
+        "channelId": "UCE_OblpM7KEUXGn0BzxMioA",
+        "title": "새끼고양이 간택",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/y5QghK3gDIE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/y5QghK3gDIE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/y5QghK3gDIE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "뉴진스 하니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-02T16:54:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KoZTAuGt2qPQsZiWYaB-o1_76Wg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "V4Eg35yKn9w"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-02T01:45:00Z",
+        "channelId": "UCdlmHGKsIRuODanePdD-52Q",
+        "title": "응급실에 실려간 고양이3",
+        "description": "shorts #동물 #고양이 출처 Love For Paws.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/V4Eg35yKn9w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/V4Eg35yKn9w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/V4Eg35yKn9w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "갑꿍이 : 갑자기 궁금한 이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-02T01:45:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KuKwaSmEKKZq9Lc7BLqGzznoSgE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "khF2rNOhMfU"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-04T02:00:19Z",
+        "channelId": "UCdokCeAnEKLN9ivXJXFsu0A",
+        "title": "집사가 고양이와 대치하는 이유",
+        "description": "집사가 고양이와 대치하는 이유 #shorts #쇼츠 #고양이.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/khF2rNOhMfU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/khF2rNOhMfU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/khF2rNOhMfU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "으이이읭",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-04T02:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Jc0pO-fzLuSc-k-I69uzXMEB8xM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kbkO7bVwsOE"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-30T06:45:02Z",
+        "channelId": "UCsFfefZ9qfSX0HYpIrz8ooA",
+        "title": "귀여운 고양이의 하루 일과",
+        "description": "shorts #고양이.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kbkO7bVwsOE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kbkO7bVwsOE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kbkO7bVwsOE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "알려줄게",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-30T06:45:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ORr7gZCCzszN-mr2c-Oe84NqpxQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3hgQu-PGkW0"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-10T11:22:17Z",
+        "channelId": "UCQcYgOAfbpkd7CAFfwPF0vA",
+        "title": "우리 집에 오는 길고양이들은 왜 하악질을 할까?",
+        "description": "[배은망덕고양이들] 2024 탁상달력 프로젝트 : https://tumblbug.com/baeunmangdeokcats 우리 집 마당은 대장고양이, 어미고양이, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3hgQu-PGkW0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3hgQu-PGkW0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3hgQu-PGkW0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "배은망덕고양이들",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-10T11:22:17Z"
+      }
+    }
+  ]
+}
