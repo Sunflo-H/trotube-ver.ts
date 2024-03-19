@@ -9,12 +9,13 @@ function App() {
 
   return (
     <>
-      <Provider store={store}>
+      hi ts
+      {/* <Provider store={store}>
         <SearchHeader />
         <QueryClientProvider client={queryClient}>
           <Outlet />
         </QueryClientProvider>
-      </Provider>
+      </Provider> */}
     </>
   );
 }
