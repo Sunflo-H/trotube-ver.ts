@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  return <div className="App">헬로 타입스크립트</div>;
+  return <div className="App">타입스크립트</div>;
 }
 
 export default App;
