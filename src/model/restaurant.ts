@@ -25,13 +25,13 @@ export type Restaurant = {
   menu: Menu;
 };
 
-type Address = {
+export type Address = {
   city: string;
   detail: string;
   zipCode: number;
 };
 
-type Menu = {
+export type Menu = {
   name: string;
   price: number;
   category: string;
