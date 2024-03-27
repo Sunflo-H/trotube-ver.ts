@@ -1,12 +1,23 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
-import Store from "./Store";
 import { Address, Restaurant } from "./model/restaurant";
-import Home from "./pages/Home";
+
 import { Outlet } from "react-router-dom";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 const App: React.FC = () => {
-  return <Outlet />;
+  const queryClient = new QueryClient();
+
+  return (
+    <>
+      {/* <Provider store={store}> */}
+      {/* <SearchHeader /> */}
+      <QueryClientProvider client={queryClient}>
+        <Outlet />
+      </QueryClientProvider>
+      {/* </Provider> */}
+    </>
+  );
 };
 
 export default App;

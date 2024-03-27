@@ -1,0 +1,687 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "s-6S7psqZatyxlJGrR5p6HioAxI",
+  "nextPageToken": "CDwQAA",
+  "prevPageToken": "CCgQAQ",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 20
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "REfIbjHSN-innwiTcZ2v-tlmzSY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "F8q_svm5Wl8"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-29T10:33:33Z",
+        "channelId": "UCr4CatqympoNVEzGirUSgfg",
+        "title": "생애 처음 아이스크림을 먹은 고양이의 놀라운 행동",
+        "description": "shorts #고양이 #cat.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/F8q_svm5Wl8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/F8q_svm5Wl8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/F8q_svm5Wl8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "톡톡 동물 지식",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-29T10:33:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jSlE9MjH_tzOX2MaCv_2GSRoE8g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8vaFNd-nN_s"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-05T13:15:00Z",
+        "channelId": "UCdFt_Vrew1qW_1tNdP9tMzQ",
+        "title": "아빠가 칼퇴하고 집에 달려오는 이유 😂❤️",
+        "description": "아빠가 퇴근하고 눈썹을 휘날리며 집에 달려오는 이유?! 털손주가 목빠지게 기다리고 있기 때문이에요~ 할비 방 문턱 앞에서 하루종일 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8vaFNd-nN_s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8vaFNd-nN_s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8vaFNd-nN_s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "이웃집고양이 덕배",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-05T13:15:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pFOKXR6Rt5osqecLRhQmSVXT6F8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FhA37Sw4j8w"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-11T12:15:02Z",
+        "channelId": "UC6iv2sEB_r9NMTJcYwLcS9w",
+        "title": "귀여운 아기 고양이 힐링 영상 모음",
+        "description": "복둥이네 인스타 https://www.instagram.com/ddo_o_da 복둥이네가 사용하는 용품 https://m.smartstore.naver.com/bokiboki.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FhA37Sw4j8w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FhA37Sw4j8w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FhA37Sw4j8w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "복둥이네 또오다 ddooda",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-11T12:15:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MC1GNzk-pBWxyf_-C7Hv2lXhMCU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yJRxw8nNiEM"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-01T08:51:54Z",
+        "channelId": "UChz95FXbJk3No_QhAOCoiFA",
+        "title": "고양이를 이해하기 위한 영상 #동물짤",
+        "description": "동물밈.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yJRxw8nNiEM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yJRxw8nNiEM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yJRxw8nNiEM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "힐링해요 동물의 짤",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-01T08:51:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-7jhKxkkdc0LI9y6eEXaouzvpmk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oLVPMC3e1Uk"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-12T03:02:03Z",
+        "channelId": "UCK8gMk3MgEcMy1U_XY12QlQ",
+        "title": "쳐다봐야 캣휠 타는 관종 고양이",
+        "description": "관심 받는거 좋아하는 귀여운 관종 고양이 조이~ㅋㅋ #shorts #쪼르는쪼이 #말하는고양이 #삐진고양이 #대답하는고양이 #대답냥 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oLVPMC3e1Uk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oLVPMC3e1Uk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oLVPMC3e1Uk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쪼르는 쪼이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-12T03:02:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "P6NUeUFXsND_d84evj1fE1Dvpx0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fM-OX5G6MD4"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-08T00:34:31Z",
+        "channelId": "UCJeJLXwFHw1gKiOXEuAtuog",
+        "title": "정체모를 파란색으로 물든 고양이",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fM-OX5G6MD4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fM-OX5G6MD4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fM-OX5G6MD4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소중한 이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-08T00:34:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dprnDDoEjD9l40fxeRuBpubpM14",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ChIKOo-0s5Y"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-22T02:00:04Z",
+        "channelId": "UC9UQS0AreIqRuHR9ZHlkGDA",
+        "title": "아기 고양이 유혹하는 법ㅋㅋ",
+        "description": "비즈니스 문의 : audtnswhshort@gmail.com.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ChIKOo-0s5Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ChIKOo-0s5Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ChIKOo-0s5Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "명순조",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-22T02:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "15P7cXMgLoMLCMTVCin5gm8Cdo4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9m_VgY_DToI"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-27T03:20:16Z",
+        "channelId": "UC46IdT_MMPWuOrGuv-yaIqw",
+        "title": "고양이송 스타 펑티모 수백억벌고 말기암 충격",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9m_VgY_DToI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9m_VgY_DToI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9m_VgY_DToI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "연예가스타",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-27T03:20:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FQeTrqrUAoFlWRtVi9dgZjUKGac",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YdOjSnAw_Qk"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-16T07:00:13Z",
+        "channelId": "UCeY3m_ngsWYOQ65KDEFep0g",
+        "title": "[안곰툰] 해피한 고양이",
+        "description": "안곰툰 #파이냥 #shorts -해피캣 -Happy Cat.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YdOjSnAw_Qk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YdOjSnAw_Qk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YdOjSnAw_Qk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "안곰TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-16T07:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "p03v0CTVRCbT8hWnd1R1x5YoP8E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tG3wXPuXROI"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-02T02:50:54Z",
+        "channelId": "UCFg8jw3ZIK50CW0G2P_13cA",
+        "title": "&quot;참을 만큼 참았다&quot;…집사에게 눈빛 보내던 고양이 결국 #사건반장 #Shorts",
+        "description": "고양이 한 마리가 아기 의자 위에 편하게 앉아있습니다. 그런데 아이도 의자에 앉고 싶은지 의자에 걸터앉아 보는데 고양이 때문인지 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tG3wXPuXROI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tG3wXPuXROI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tG3wXPuXROI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "사건반장",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-02T02:50:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RTGdRXMHUla8n8IJr093lUxQ6CU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xXIDOI0o0xQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-26T08:00:28Z",
+        "channelId": "UCOg8XvvmbEOMakXyWpHUGyQ",
+        "title": "장난감을 아겨요 | 고양이 가족 | 야옹미 패밀리쇼 인기동요 | Meowmi Family Show",
+        "description": "야옹미 패밀리쇼(MeowMi Family Show) 채널의 영상을 재밌게 보셨다면~ 구독 & 좋아요 & 알림 설정 해주해요~ 00:00 장난감 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xXIDOI0o0xQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xXIDOI0o0xQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xXIDOI0o0xQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MeowMi Family Show－인기동요",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-26T08:00:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-PJIosUoIGcYwCcyjsE_5kUk6os",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2BYQPAcJikI"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-09T02:00:01Z",
+        "channelId": "UCdokCeAnEKLN9ivXJXFsu0A",
+        "title": "비 오는 길가에 버려져있는 아기 고양이",
+        "description": "비 오는 길가에 버려져있는 아기 고양이 #shorts #쇼츠 #고양이.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2BYQPAcJikI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2BYQPAcJikI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2BYQPAcJikI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "으이이읭",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-09T02:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sGqWX1rjzUvcLOHXhsFyDcGQVMA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FLQjkJ4XqnA"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-01T02:30:05Z",
+        "channelId": "UCQB2BDd2WA9wtKvIdvXLicA",
+        "title": "새끼 고양이의 발가락을 깨물었더니..",
+        "description": "shorts #감동영상 #동물영상 #동물구조 #짧은영상 #animal 푸른별 소식을 매일매일 전하는 채널.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FLQjkJ4XqnA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FLQjkJ4XqnA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FLQjkJ4XqnA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "푸른별 BlueStar",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-01T02:30:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mU8i7BgpQlG5odba5hE1uaaeilo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1pIIqb_m4xU"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-22T10:04:35Z",
+        "channelId": "UCr4CatqympoNVEzGirUSgfg",
+        "title": "자기 자식이 악몽 꾸는 것을 본 어미 고양이의 행동",
+        "description": "shorts #고양이 #cat BGM : Be Free by 김성원, 한국저작권위원회, CC BY.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1pIIqb_m4xU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1pIIqb_m4xU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1pIIqb_m4xU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "톡톡 동물 지식",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-22T10:04:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yvfb9FX1em3GW5OaB0q6CmMDR8c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Eb_7huYOhYk"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-30T08:30:03Z",
+        "channelId": "UCgeHDGNAxySBHWaFw27JMjA",
+        "title": "베니의 Queencard(퀸카) - (G)I-DLE (여자)아이들 cover by Benny the Cat #shorts",
+        "description": "(여자)아이들((G)I-DLE)의 Queencard(퀸카)를 귀여운 고양이 가수 베니가 커버했어요❣️ 베니 응원해 주셔서 감사해요~  ❤️ 베니 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Eb_7huYOhYk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Eb_7huYOhYk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Eb_7huYOhYk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "베니패밀리 Benny Family",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-30T08:30:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "80oTtRkiEGyfsW9fGqDuCeB68hs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SnzRAP93lIc"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-09T05:52:52Z",
+        "channelId": "UCtbOb9PQDJu452FlrjSfUuQ",
+        "title": "지난 여름! 길에서 다리없던 아기고양이 5달후 현재 모습은?",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SnzRAP93lIc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SnzRAP93lIc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SnzRAP93lIc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "천사 angel cat TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-09T05:52:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HBwekducurZ7mbcy7pxeBlLtCrQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MS8s5V6m4TY"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-04T09:00:13Z",
+        "channelId": "UCrZrCOZgNMAG74O4UI63_Tg",
+        "title": "고양이 수면 자세 10가지와 꼭 알아야 할 각각의 의미와 상황, 우리 고양이는 왜 이렇게 잘까?",
+        "description": "고양이에게 잠은 매우 중요합니다. 그만큼 자는 자세도 여러가지 의미를 갖고 있는데요. 고양이가 자는 자세 10가지, 그리고 각각의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MS8s5V6m4TY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MS8s5V6m4TY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MS8s5V6m4TY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "고양이 톡톡(talk talk)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-04T09:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-BaCaYaGuR38qkRhsmyJU7wZ5OA",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCQcYgOAfbpkd7CAFfwPF0vA"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-19T08:25:47Z",
+        "channelId": "UCQcYgOAfbpkd7CAFfwPF0vA",
+        "title": "배은망덕고양이들",
+        "description": "시골의 야생 길고양이들이 우리 집 마당냥이가 되어 함께 살아가는 평화로운 일상을 공유하고 있습니다. 매일 밥만 먹고, 경계심이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/G2K8J7VHgLSFW5satrpT13EZUVIRHd7ZhF7kG6eKadT7BYxtBaJ2t8vXHGBDZrOB83Iys8KH=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/G2K8J7VHgLSFW5satrpT13EZUVIRHd7ZhF7kG6eKadT7BYxtBaJ2t8vXHGBDZrOB83Iys8KH=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/G2K8J7VHgLSFW5satrpT13EZUVIRHd7ZhF7kG6eKadT7BYxtBaJ2t8vXHGBDZrOB83Iys8KH=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "배은망덕고양이들",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-19T08:25:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "y2d-usk4VSMnbM2aoumT5qFTyek",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "B9hfG0deLBE"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-15T08:00:10Z",
+        "channelId": "UCYZv9v_bwfMGc64gLRe34OA",
+        "title": "[#모았동물농장] 🐱어이 인간! 날 키우도록 해라!🫵 뻔뻔하고 귀여운 집사 간택하는 길냥이들 모음집🐱 #TV동물농장 #AnimalFarm #SBSstory",
+        "description": "방송정보 00:00 TV동물농장 958회 200223 집사를 간택한 길냥이들 모음집 17:28 TV동물농장 1103회 230115 미용실의 뻔뻔한 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/B9hfG0deLBE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/B9hfG0deLBE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/B9hfG0deLBE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS STORY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-15T08:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LsGAHQ6_xoTcKPSVvvmiS4vX5ZQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "u2c01cKTk1U"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-09T08:45:02Z",
+        "channelId": "UCdlmHGKsIRuODanePdD-52Q",
+        "title": "한국보다 고양이가 살기 좋은 나라",
+        "description": "shorts #동물.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/u2c01cKTk1U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/u2c01cKTk1U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/u2c01cKTk1U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "갑꿍이 : 갑자기 궁금한 이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-09T08:45:02Z"
+      }
+    }
+  ]
+}
