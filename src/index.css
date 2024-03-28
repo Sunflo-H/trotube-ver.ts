@@ -1,13 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @apply flex w-full h-full justify-center;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#root {
+  @apply flex flex-col w-full h-full max-w-screen-2xl;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(100px, auto));
+  grid-template-rows: repeat(2, minmax(100px, auto));
+  gap: 4px;
+}
+
+.first-place {
+  background-color: #fecaca;
+  /* 1번 라인에서 가로 4칸 */
+  grid-column: 1 / span 4;
+  /* 1번 라인에서 세로 2칸 */
+  grid-row: 1 / span 2;
+}
+.second-place {
+  background-color: #fed7aa;
+  /* 4번 라인에서 가로 2칸 */
+  grid-column: 5 / span 2;
+  /* 1번 라인에서 세로 1칸 */
+  grid-row: 1 / span 1;
+}
+.third-place {
+  background-color: #fbcfe8;
+  /* 6번 라인에서 가로 2칸 */
+  grid-column: 7 / span 2;
+  /* 1번 라인에서 세로 1칸 */
+  grid-row: 1 / span 1;
+}
+.fourth-place {
+  background-color: #c7d2fe;
+  /* 2번 라인에서 세로 1칸 */
+  grid-row: 2 / span 1;
+}
+.fifth-place {
+  background-color: #bae6fd;
+  /* 2번 라인에서 세로 1칸 */
+  grid-row: 2 / span 1;
+}
+.sixth-place {
+  padding-top: 4px;
+  background-color: #bfdbfe;
+  /* 2번 라인에서 세로 1칸 */
+  grid-row: 2 / span 1;
+}
+.seventh-place {
+  background-color: #bbf7d0;
+  /* 2번 라인에서 세로 1칸 */
+  grid-row: 2 / span 1;
+}
+
+.top7:hover > img {
+  scale: 1.05;
+  transform: translate(0, -5px);
+}
+
+.top7.first-place:hover > img {
+  transform: translate(0, -10px);
+  /* background-color: goldenrod; */
+}
+
+.본선1차전 {
+  background: linear-gradient(to right, dodgerblue 25%, transparent);
+}
+.본선2차전 {
+  background: linear-gradient(to right, orange 25%, transparent);
+}
+.본선3차전 {
+  background: linear-gradient(to right, rgb(0, 166, 118) 25%, transparent);
+}
+.준결승전 {
+  background: linear-gradient(to right, rgb(131, 145, 218) 25%, transparent);
+}
+.결승전 {
+  background: linear-gradient(to right, rgb(213, 118, 114) 25%, transparent);
+}
+
+/* @media (max-width: 640px) { */
+@media (max-width: 1024px) {
+  .first-place {
+    /* 1번 라인에서 4칸 */
+    grid-column: 1 / span 4;
+    /* 1번 라인에서 2칸 */
+    grid-row: 1 / span 2;
+  }
+
+  .second-place {
+    /* 4번 라인에서 2칸 */
+    grid-column: 5 / span 4;
+    /* 1번 라인에서 1칸 */
+    grid-row: 1 / span 1;
+  }
+  .second-place img {
+    object-position: top;
+  }
+
+  .third-place {
+    /* 6번 라인에서 2칸 */
+    grid-column: 5 / span 4;
+    /* 1번 라인에서 1칸 */
+    grid-row: 2 / span 1;
+  }
+  .third-place img {
+    object-position: top;
+  }
+
+  .fourth-place {
+    grid-column: 1 / span 2;
+    /* 2번 라인에서 1칸 */
+    grid-row: 3 / span 1;
+  }
+
+  .fifth-place {
+    grid-column: 3 / span 2;
+    /* 2번 라인에서 1칸 */
+    grid-row: 3 / span 1;
+  }
+
+  .sixth-place {
+    padding-top: 4px;
+
+    grid-column: 5 / span 2;
+    /* 2번 라인에서 1칸 */
+    grid-row: 3 / span 1;
+  }
+  .sixth-place img {
+    margin-top: 4px;
+    object-position: top;
+  }
+
+  .seventh-place {
+    grid-column: 7 / span 2;
+    /* 2번 라인에서 1칸 */
+    grid-row: 3 / span 1;
+  }
+
+  .top7 {
+    overflow: hidden;
+  }
+
+  .top7:hover > img {
+    scale: 1.05;
+    transform: translate(0, -3px);
+  }
+
+  .top7.first-place:hover > img {
+    transform: translate(0, -3px);
+  }
 }
