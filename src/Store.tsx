@@ -1,4 +1,4 @@
-import { Address, Restaurant } from "./model/restaurant";
+import { Address, Restaurant } from "./userTypes/restaurant";
 
 // props도 타입이 필요하다.
 interface OwnProps {
