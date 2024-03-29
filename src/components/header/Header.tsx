@@ -50,7 +50,6 @@ export default function SearchHeader() {
           <BsSearch className="text-lg" />
         </button>
       </form>
-      {/* <Setting /> */}
     </div>
   );
 }
