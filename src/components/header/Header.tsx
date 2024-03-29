@@ -11,14 +11,18 @@ export default function SearchHeader() {
   const [text, setText] = useState("");
   // const dispatch = useDispatch();
 
-  const handleSubmit = (e: any) => {
+  const handleSubmit: React.FormEventHandler<HTMLFormElement> = (
+    e: React.FormEvent<HTMLFormElement>
+  ) => {
     e.preventDefault();
     navigate(`/videos/${text}`);
     // dispatch(setKeyword(text));
     setText("");
   };
 
-  const handleChange = (e: any) => {
+  const handleChange: React.ChangeEventHandler<HTMLInputElement> = (
+    e: React.ChangeEvent<HTMLInputElement>
+  ) => {
     setText(e.target.value);
   };
 
