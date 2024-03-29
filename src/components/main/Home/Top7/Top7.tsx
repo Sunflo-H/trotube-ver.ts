@@ -1,12 +1,12 @@
 import { useQuery } from "@tanstack/react-query";
-import { getMembers } from "../../../../queryFn/trotQueries";
+import { fetchMembers } from "../../../../queryFn/trotQueries";
 import { Member } from "../../../../userTypes/trotQueriesType";
 import Top7Card from "./Top7Card";
 
 export default function Top7() {
   const { data: members } = useQuery<Member[]>({
     queryKey: ["members"],
-    queryFn: getMembers,
+    queryFn: fetchMembers,
   });
 
   return (

@@ -1,6 +1,6 @@
 export type Member = {
   name: string;
-  songs: [];
+  songs: unknown[];
   rank: string;
 };
 

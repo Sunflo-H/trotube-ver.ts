@@ -1,11 +1,11 @@
 import React from "react";
 import Top7 from "../components/main/Home/Top7/Top7";
-// import Round from "../components/main/HomePage/Round/Round";
+import Round from "../components/main/Home/Round/Round";
 // import Round_underMd from "../components/main/HomePage/Round/Round_underMd";
 import { useState } from "react";
 import { ak47 } from "../userTypes/trotQueriesType";
 
-const roundList = [
+const roundList: string[] = [
   `본선 1차전`,
   `본선 2차전`,
   `본선 3차전`,
@@ -20,9 +20,9 @@ export default function Home() {
 
       {/* md 이상일 때 보여질 라운드별 영상 컨텐츠*/}
       <div className="hidden md:block">
-        {/* {roundList.map((round, index) => (
+        {roundList.map((round: string, index: number) => (
           <Round round={round} key={index} />
-        ))} */}
+        ))}
       </div>
 
       {/* md 미만일 때 보여질 라운드별 영상 컨텐츠*/}
