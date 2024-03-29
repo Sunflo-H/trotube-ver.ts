@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import React from "react";
 import { useNavigate } from "react-router-dom";
-// import RoundVideos_sample from "./RoundVideos_sample";
+import RoundVideos_sample from "./RoundVideos_sample";
 import { fetchVideosByRound } from "../../../../queryFn/trotQueries";
 import { Video } from "../../../../userTypes/trotQueriesType";
 
@@ -26,7 +26,7 @@ const Round: React.FC<Props> = ({ round }) => {
         <div className="text-2xl font-semibold">{round}</div>
         <div className="hidden lg:block opacity-90 ml-auto">더보기</div>
       </div>
-      {/* <RoundVideos_sample videos={videos} /> */}
+      <RoundVideos_sample videos={videos} />
     </div>
   );
 };

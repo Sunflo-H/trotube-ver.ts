@@ -9,8 +9,6 @@ import { Members, Video } from "../userTypes/trotQueriesType";
  */
 const fetchMembers = async () => {
   const { data } = await axios.get("/data/mrtrot1/member.json");
-  console.log(data);
-
   return data;
 };
 
@@ -28,9 +26,7 @@ const fetchMembers = async () => {
 // };
 
 const fetchVideosByRound = async ({ queryKey }: any) => {
-  console.log(queryKey);
   const round = queryKey[1];
-  console.log(round);
   const url = `/data/mrtrot1/${round}.json`;
   const { data } = await axios.get(url);
 

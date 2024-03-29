@@ -2,9 +2,10 @@ import { useQuery } from "@tanstack/react-query";
 import { fetchMembers } from "../../../../queryFn/trotQueries";
 import { Member } from "../../../../userTypes/trotQueriesType";
 import Top7Card from "./Top7Card";
+import { AxiosError } from "axios";
 
 export default function Top7() {
-  const { data: members } = useQuery<Member[]>({
+  const { data: members } = useQuery<Member[], AxiosError, Member[]>({
     queryKey: ["members"],
     queryFn: fetchMembers,
   });
