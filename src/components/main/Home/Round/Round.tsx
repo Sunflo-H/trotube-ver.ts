@@ -2,7 +2,8 @@ import { useQuery } from "@tanstack/react-query";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 // import RoundVideos_sample from "./RoundVideos_sample";
-// import { fetchRoundVideos } from "../../../../queryFn/trotQueries";
+import { fetchVideosByRound } from "../../../../queryFn/trotQueries";
+import { Video } from "../../../../userTypes/trotQueriesType";
 
 type Props = {
   round: string;
@@ -11,12 +12,12 @@ type Props = {
 const Round: React.FC<Props> = ({ round }) => {
   const navigate = useNavigate();
   const roundStr_noSpace = round.replace(" ", "");
-  // const { data: videos } = useQuery({
-  //   queryKey: ["roundVideos", roundStr_noSpace],
-  //   queryFn: fetchRoundVideos,
-  // });
+  const { data: videos } = useQuery<Video[]>({
+    queryKey: ["roundVideos", roundStr_noSpace],
+    queryFn: fetchVideosByRound,
+  });
   const handleClick: React.MouseEventHandler<HTMLDivElement> = () => {
-    // navigate(`/videos/round/${round}`, { state: videos });
+    navigate(`/videos/round/${round}`, { state: videos });
     window.scrollTo(0, 0);
   };
   return (
