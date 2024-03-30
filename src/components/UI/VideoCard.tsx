@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-// import { format, render, cancel, register } from "timeago.js";
+import { format, render, cancel, register } from "timeago.js";
 import { Video } from "../../userTypes/trotQueriesType";
 
 type Props = {
@@ -31,7 +31,7 @@ const VideoCard: React.FC<Props> = ({ video }) => {
       <div className="px-px">
         <div className="mt-3 font-semibold line-clamp-2">{title}</div>
         <div className="mt-2 opacity-80 text-sm">{channelTitle}</div>
-        {/* <div className="opacity-80 text-sm">{format(publishedAt)}</div> */}
+        <div className="opacity-80 text-sm">{format(publishedAt)}</div>
       </div>
     </li>
   );
