@@ -9,6 +9,7 @@ import { Members, RoundData, Video } from "../userTypes/trotQueriesType";
  */
 const fetchMembers = async () => {
   const { data: Members } = await axios.get("/data/mrtrot1/member.json");
+  console.log(Members);
   return Members;
 };
 

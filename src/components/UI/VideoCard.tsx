@@ -8,7 +8,6 @@ type Props = {
 };
 
 const VideoCard: React.FC<Props> = ({ video }) => {
-  console.log(video);
   const { channelTitle, publishedAt, title, thumbnails } = video.snippet;
   const navigate = useNavigate();
 

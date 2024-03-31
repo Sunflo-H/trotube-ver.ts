@@ -1,8 +1,10 @@
 export type Member = {
   name: string;
-  songs: unknown[];
+  songs: [];
   rank: string;
 };
+
+export type Songs = {};
 
 export type Members = Member[];
 
