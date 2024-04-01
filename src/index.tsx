@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import Home from "./pages/Home";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Top7Videos from "./pages/Top7Videos";
+import RoundVideos from "./pages/RoundVideos";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,10 +28,10 @@ const router = createBrowserRouter([
         path: "/videos/top7/:memberName",
         element: <Top7Videos />,
       },
-      // {
-      //   path: "/videos/round/:roundName",
-      //   element: <RoundVideos />,
-      // },
+      {
+        path: "/videos/round/:roundName",
+        element: <RoundVideos />,
+      },
     ],
   },
 ]);
