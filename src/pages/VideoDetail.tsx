@@ -3,6 +3,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { getRelatedVideos } from "../queryFn/youtubeQueries";
+import RelatedVideoCard from "../components/main/VideoDetail/RelatedVideoCard";
 // import Channel from "../components/main/VideoDetailPage/Channel";
 // import Description from "../components/main/VideoDetailPage/Description";
 // import RelatedVideoCard from "../components/main/VideoDetailPage/RelatedVideoCard";
@@ -63,15 +64,15 @@ const VideoDetail: React.FC = () => {
             )} */}
           </div>
         </section>
-        {/* <section className="basis-3/12 px-2">
+        <section className="basis-3/12 px-2">
           {relatedVideos && (
             <ul>
-              {relatedVideos.map((video) => (
-                <RelatedVideoCard video={video} key={video.id} />
+              {relatedVideos.map((relatedVideo) => (
+                <RelatedVideoCard video={relatedVideo} key={video.id} />
               ))}
             </ul>
           )}
-        </section> */}
+        </section>
       </div>
     </div>
   );

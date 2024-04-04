@@ -1,6 +1,6 @@
 export type YoutubeData = {
   etag: string;
-  items: YoutubeVideo;
+  items: YoutubeVideo[];
   kind: string;
   nextPageToken: string;
   pageInfo: { totalResults: number; resultsPerPage: number };

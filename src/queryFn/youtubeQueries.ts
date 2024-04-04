@@ -1,5 +1,5 @@
 import axios from "axios";
-import { YoutubeVideo } from "../userTypes/youtubeQueriesType";
+import { YoutubeData, YoutubeVideo } from "../userTypes/youtubeQueriesType";
 
 const key = process.env.REACT_APP_YOUTUBE_API_KEY;
 const SEARCH_RESULT_COUNT = 50;
@@ -35,14 +35,22 @@ export const getRelatedVideos = async ({ queryKey }: any) => {
   // 지금은 사라진 연관동영상리스트 url (혹시 몰라서 남겨둡니다.)
   // const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&relatedToVideoId=${queryKey[1]}&type=video&maxResults=10&key=${key}`;
   const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=${RELATED_VIDEO_COUNT}&q=${title}&key=${key}`;
-  const { data } = await axios.get(url);
-  console.log(data);
-  const result = data.items.map((item: YoutubeVideo) => ({
-    ...item,
-    id: item.id.videoId,
-  }));
-  // .filter((item: YoutubeVideo, i: number) => i !== 0);
-  return result;
+  const { data } = await axios.get<YoutubeData>(url);
+  console.log("data 원본 : ", data);
+
+  // id : {kind, videoId} 이렇게 있어서 id : videoId 이렇게 되게끔 수정한 코드
+  // const relatedVideos = data.items.map((item: YoutubeVideo) => ({
+  //   ...item,
+  //   id: item.id.videoId,
+  // })).filter((item: YoutubeVideo, i: number) => i !== 0);
+
+  // id를 수정하지 않은 코드
+  // 첫번째 연관 비디오 === 현재 비디오 따라서 제거합니다.
+  const relatedVideos = data.items.filter(
+    (item: YoutubeVideo, i: number) => i !== 0
+  );
+
+  return relatedVideos;
 };
 
 // export const getChannel = async ({ queryKey }) => {
