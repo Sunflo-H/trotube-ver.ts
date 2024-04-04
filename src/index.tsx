@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Top7Videos from "./pages/Top7Videos";
 import RoundVideos from "./pages/RoundVideos";
+import VideoDetail from "./pages/VideoDetail";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,10 +21,10 @@ const router = createBrowserRouter([
       //   path: "/videos/:keyword",
       //   element: <SearchVideos />,
       // },
-      // {
-      //   path: "/videos/watch/:videoId",
-      //   element: <VideoDetail />,
-      // },
+      {
+        path: "/videos/watch/:videoId",
+        element: <VideoDetail />,
+      },
       {
         path: "/videos/top7/:memberName",
         element: <Top7Videos />,
