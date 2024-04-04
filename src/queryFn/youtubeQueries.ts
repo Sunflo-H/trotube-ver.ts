@@ -1,4 +1,5 @@
 import axios from "axios";
+import { YoutubeVideo } from "../userTypes/youtubeQueriesType";
 
 const key = process.env.REACT_APP_YOUTUBE_API_KEY;
 const SEARCH_RESULT_COUNT = 50;
@@ -36,10 +37,12 @@ export const getRelatedVideos = async ({ queryKey }: any) => {
   const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=${RELATED_VIDEO_COUNT}&q=${title}&key=${key}`;
   const { data } = await axios.get(url);
   console.log(data);
-  // const result = data.items
-  //   .map((item) => ({ ...item, id: item.id.videoId }))
-  //   .filter((item, i) => i !== 0);
-  // return result;
+  const result = data.items.map((item: YoutubeVideo) => ({
+    ...item,
+    id: item.id.videoId,
+  }));
+  // .filter((item: YoutubeVideo, i: number) => i !== 0);
+  return result;
 };
 
 // export const getChannel = async ({ queryKey }) => {

@@ -33,7 +33,7 @@ export type RoundData = {
   etag: string;
   items: {}[];
   kind: string;
-  pageInfo: { totalResults: 1; resultsPerPage: 1 };
+  pageInfo: { totalResults: number; resultsPerPage: number };
 };
 
 export type Snippet = {
