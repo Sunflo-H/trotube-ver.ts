@@ -2,10 +2,10 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+import { getRelatedVideos } from "../queryFn/youtubeQueries";
 // import Channel from "../components/main/VideoDetailPage/Channel";
 // import Description from "../components/main/VideoDetailPage/Description";
 // import RelatedVideoCard from "../components/main/VideoDetailPage/RelatedVideoCard";
-// import { getRelatedVideos } from "../queryFn/youtubeQueries";
 
 const VideoDetail: React.FC = () => {
   const [show, setShow] = useState(false);
@@ -16,7 +16,7 @@ const VideoDetail: React.FC = () => {
 
   const { data: relatedVideos } = useQuery({
     queryKey: ["relatedVideos", video.id, title],
-    // queryFn: getRelatedVideos,
+    queryFn: getRelatedVideos,
   });
 
   // 새 비디오디테일 페이지로 이동했을때 show state를 초기화한다.

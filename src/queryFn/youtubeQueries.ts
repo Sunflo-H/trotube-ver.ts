@@ -1,8 +1,8 @@
-// import axios from "axios";
+import axios from "axios";
 
-// const key = process.env.REACT_APP_YOUTUBE_API_KEY;
-// const SEARCH_RESULT_COUNT = 50;
-// const RELATED_VIDEO_COUNT = 21;
+const key = process.env.REACT_APP_YOUTUBE_API_KEY;
+const SEARCH_RESULT_COUNT = 50;
+const RELATED_VIDEO_COUNT = 21;
 
 // /**
 //  * 검색 결과를 요청, 요청당 할당량 100 소모
@@ -29,17 +29,18 @@
 //   return { videos, nextPageToken };
 // };
 
-// export const getRelatedVideos = async ({ queryKey }) => {
-//   const title = queryKey[2];
-//   // 지금은 사라진 연관동영상리스트 url (혹시 몰라서 남겨둡니다.)
-//   // const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&relatedToVideoId=${queryKey[1]}&type=video&maxResults=10&key=${key}`;
-//   const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=${RELATED_VIDEO_COUNT}&q=${title}&key=${key}`;
-//   const { data } = await axios.get(url);
-//   const result = data.items
-//     .map((item) => ({ ...item, id: item.id.videoId }))
-//     .filter((item, i) => i !== 0);
-//   return result;
-// };
+export const getRelatedVideos = async ({ queryKey }: any) => {
+  const title = queryKey[2];
+  // 지금은 사라진 연관동영상리스트 url (혹시 몰라서 남겨둡니다.)
+  // const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&relatedToVideoId=${queryKey[1]}&type=video&maxResults=10&key=${key}`;
+  const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=${RELATED_VIDEO_COUNT}&q=${title}&key=${key}`;
+  const { data } = await axios.get(url);
+  console.log(data);
+  // const result = data.items
+  //   .map((item) => ({ ...item, id: item.id.videoId }))
+  //   .filter((item, i) => i !== 0);
+  // return result;
+};
 
 // export const getChannel = async ({ queryKey }) => {
 //   const url = `https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${queryKey[1]}&key=${key}`;
