@@ -36,15 +36,15 @@ export const getRelatedVideos = async ({ queryKey }: any) => {
   // const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&relatedToVideoId=${queryKey[1]}&type=video&maxResults=10&key=${key}`;
   const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=${RELATED_VIDEO_COUNT}&q=${title}&key=${key}`;
   const { data } = await axios.get<YoutubeData>(url);
-  console.log("data 원본 : ", data);
-
-  // id : {kind, videoId} 이렇게 있어서 id : videoId 이렇게 되게끔 수정한 코드
+  //! id : {kind, videoId} 이렇게 있어서 id : videoId 이렇게 되게끔 수정한 코드
+  //! 이후 본문 코드에 id : videoId 이런식으로 써야하고, 이를 바꾸기 힘들다면 이 코드를 쓰세요
+  //! 마지막까지 필요없다면 삭제해주세요
   // const relatedVideos = data.items.map((item: YoutubeVideo) => ({
   //   ...item,
   //   id: item.id.videoId,
   // })).filter((item: YoutubeVideo, i: number) => i !== 0);
 
-  // id를 수정하지 않은 코드
+  //! id를 수정하지 않은 코드
   // 첫번째 연관 비디오 === 현재 비디오 따라서 제거합니다.
   const relatedVideos = data.items.filter(
     (item: YoutubeVideo, i: number) => i !== 0
@@ -53,9 +53,10 @@ export const getRelatedVideos = async ({ queryKey }: any) => {
   return relatedVideos;
 };
 
-// export const getChannel = async ({ queryKey }) => {
-//   const url = `https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${queryKey[1]}&key=${key}`;
-//   const { data } = await axios.get(url);
+export const getChannel = async ({ queryKey }: any) => {
+  const url = `https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${queryKey[1]}&key=${key}`;
+  const { data } = await axios.get(url);
+  console.log(data);
 
-//   return data.items[0];
-// };
+  return data.items[0];
+};

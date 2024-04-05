@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import React from "react";
+import { getChannel } from "../../../queryFn/youtubeQueries";
 // import Converter from "../../../utils/converter";
 // import { getChannel } from "../../../queryFn/youtubeQueries";
 
@@ -8,11 +9,11 @@ type Props = {
   channelId: number;
 };
 
-const Channel: React.FC<Props> = () => {
-  // const { data: channel } = useQuery({
-  //   queryKey: ["channel", channelId],
-  //   queryFn: getChannel,
-  // });
+const Channel: React.FC<Props> = ({ channelId }) => {
+  const { data: channel } = useQuery({
+    queryKey: ["channel", channelId],
+    queryFn: getChannel,
+  });
 
   // const converter = new Converter();
 

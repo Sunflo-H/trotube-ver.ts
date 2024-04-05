@@ -42,3 +42,5 @@ export type Thumbnails = {
   url: string;
   width: number;
 };
+
+export type Channel = {};

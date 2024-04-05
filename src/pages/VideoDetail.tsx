@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { getRelatedVideos } from "../queryFn/youtubeQueries";
 import RelatedVideoCard from "../components/main/VideoDetail/RelatedVideoCard";
+import Channel from "../components/main/VideoDetail/Channel";
 // import Channel from "../components/main/VideoDetailPage/Channel";
 // import Description from "../components/main/VideoDetailPage/Description";
 // import RelatedVideoCard from "../components/main/VideoDetailPage/RelatedVideoCard";
@@ -53,7 +54,7 @@ const VideoDetail: React.FC = () => {
           ></iframe>
           <div className="w-full">
             <div className="px-2 text-xl font-semibold my-4">{title}</div>
-            {/* <Channel channelId={channelId} /> */}
+            <Channel channelId={channelId} />
 
             {/* {description && (
               <Description

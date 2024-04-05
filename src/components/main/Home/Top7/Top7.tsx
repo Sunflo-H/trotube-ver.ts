@@ -5,7 +5,7 @@ import Top7Card from "./Top7Card";
 import { AxiosError } from "axios";
 
 export default function Top7() {
-  const { data: members } = useQuery<Member[], AxiosError, Member[]>({
+  const { data: members } = useQuery<Member[]>({
     queryKey: ["members"],
     queryFn: fetchMembers,
   });

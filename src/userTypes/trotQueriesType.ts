@@ -31,7 +31,7 @@ export type Video = {
 
 export type RoundData = {
   etag: string;
-  items: {}[];
+  items: Video[];
   kind: string;
   pageInfo: { totalResults: number; resultsPerPage: number };
 };
