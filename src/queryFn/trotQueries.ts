@@ -20,39 +20,24 @@ assignClass = function (name) {
   document.documentElement.classList.add(name);
 };
 
-let fetchMembers: () => Promise<Member[]>;
-fetchMembers = async function () {
+const fetchMembers = async (): Promise<Member[]> => {
   const { data: Members } = await axios.get<Member[]>(
     "/data/mrtrot1/member.json"
   );
   return Members;
 };
-// const fetchMembers = async () => {
-//   const { data: Members } = await axios.get<Member[]>(
-//     "/data/mrtrot1/member.json"
-//   );
-//   return Members;
-// };
 
 /**
  * Round 데이터 요청
  * @returns
  */
 
-let fetchVideosByRound: ({ queryKey }: any) => Promise<Video[]>;
-fetchVideosByRound = async function ({ queryKey }) {
+let fetchVideosByRound = async ({ queryKey }: any): Promise<Video[]> => {
   const round = queryKey[1];
   const url = `/data/mrtrot1/${round}.json`;
-  const { data } = await axios.get<RoundData[]>(url);
+  const { data } = await axios.get(url);
   const videos = data.map((data: RoundData) => data.items[0]);
   return videos;
 };
-// const fetchVideosByRound = async ({ queryKey }: any) => {
-//   const round = queryKey[1];
-//   const url = `/data/mrtrot1/${round}.json`;
-//   const { data } = await axios.get(url);
-//   const videos = data.map((data: RoundData) => data.items[0]);
-//   return videos;
-// };
 
 export { fetchMembers, fetchVideosByRound };
