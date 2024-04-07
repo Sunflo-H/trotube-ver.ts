@@ -12,14 +12,6 @@ import {
  * songs:any[], rank}
  * @returns data
  */
-// 변수에 함수 매개변수, 리턴 타입에 대한 명시적 설정
-let assignClass: (n: string) => void;
-
-// 변수에 함수 값 할당
-assignClass = function (name) {
-  document.documentElement.classList.add(name);
-};
-
 const fetchMembers = async (): Promise<Member[]> => {
   const { data: Members } = await axios.get<Member[]>(
     "/data/mrtrot1/member.json"
