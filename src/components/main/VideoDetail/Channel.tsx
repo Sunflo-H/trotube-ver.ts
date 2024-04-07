@@ -2,15 +2,16 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import React from "react";
 import { getChannel } from "../../../queryFn/youtubeQueries";
+import { ChannelInfo } from "../../../userTypes/youtubeQueriesType";
 // import Converter from "../../../utils/converter";
 // import { getChannel } from "../../../queryFn/youtubeQueries";
 
 type Props = {
-  channelId: number;
+  channelId: string;
 };
 
 const Channel: React.FC<Props> = ({ channelId }) => {
-  const { data: channel } = useQuery({
+  const { data: channel } = useQuery<ChannelInfo>({
     queryKey: ["channel", channelId],
     queryFn: getChannel,
   });
@@ -21,7 +22,7 @@ const Channel: React.FC<Props> = ({ channelId }) => {
 
   return (
     <div className="flex items-center my-4 px-2">
-      {/* {channel && (
+      {channel && (
         <>
           <img
             className="w-10 h-10 rounded-full mr-2"
@@ -32,7 +33,7 @@ const Channel: React.FC<Props> = ({ channelId }) => {
             <div className="font-semibold">{channel.snippet.title}</div>
           </div>
         </>
-      )} */}
+      )}
     </div>
   );
 };

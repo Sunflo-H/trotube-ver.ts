@@ -5,22 +5,21 @@ import { useLocation } from "react-router-dom";
 import { getRelatedVideos } from "../queryFn/youtubeQueries";
 import RelatedVideoCard from "../components/main/VideoDetail/RelatedVideoCard";
 import Channel from "../components/main/VideoDetail/Channel";
+import { Video } from "../userTypes/trotQueriesType";
 // import Channel from "../components/main/VideoDetailPage/Channel";
 // import Description from "../components/main/VideoDetailPage/Description";
 // import RelatedVideoCard from "../components/main/VideoDetailPage/RelatedVideoCard";
 
 const VideoDetail: React.FC = () => {
   const [show, setShow] = useState(false);
-  const {
-    state: { video },
-  } = useLocation();
+  const { state } = useLocation();
+  let video: Video = state.video;
   const { channelId, description, title } = video.snippet;
 
   const { data: relatedVideos } = useQuery({
     queryKey: ["relatedVideos", video.id, title],
     queryFn: getRelatedVideos,
   });
-  console.log(relatedVideos);
 
   // 새 비디오디테일 페이지로 이동했을때 show state를 초기화한다.
   useEffect(() => {

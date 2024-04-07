@@ -1,5 +1,10 @@
 import axios from "axios";
-import { YoutubeData, YoutubeVideo } from "../userTypes/youtubeQueriesType";
+import {
+  Channel,
+  ChannelInfo,
+  YoutubeData,
+  YoutubeVideo,
+} from "../userTypes/youtubeQueriesType";
 
 const key = process.env.REACT_APP_YOUTUBE_API_KEY;
 const SEARCH_RESULT_COUNT = 50;
@@ -36,7 +41,6 @@ export const getRelatedVideos = async ({
   const title = queryKey[2];
   const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=${RELATED_VIDEO_COUNT}&q=${title}&key=${key}`;
   const { data } = await axios.get<YoutubeData>(url);
-  console.log(data);
   //! id : {kind, videoId} 이렇게 있어서 id : videoId 이렇게 되게끔 수정한 코드
   //! 이후 본문 코드에 id : videoId 이런식으로 써야하고, 이를 바꾸기 힘들다면 이 코드를 쓰세요
   //! 마지막까지 필요없다면 삭제해주세요
@@ -54,10 +58,9 @@ export const getRelatedVideos = async ({
   return relatedVideos;
 };
 
-export const getChannel = async ({ queryKey }: any) => {
+export const getChannel = async ({ queryKey }: any): Promise<ChannelInfo> => {
   const url = `https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${queryKey[1]}&key=${key}`;
-  const { data } = await axios.get(url);
-  console.log(data);
-
-  return data.items[0];
+  const { data: channelData } = await axios.get<Channel>(url);
+  let channelInfo = channelData.items[0];
+  return channelInfo;
 };
