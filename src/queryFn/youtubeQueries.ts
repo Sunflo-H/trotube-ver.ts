@@ -30,12 +30,13 @@ const RELATED_VIDEO_COUNT = 21;
 //   return { videos, nextPageToken };
 // };
 
-export const getRelatedVideos = async ({ queryKey }: any) => {
+export const getRelatedVideos = async ({
+  queryKey,
+}: any): Promise<YoutubeVideo[]> => {
   const title = queryKey[2];
-  // 지금은 사라진 연관동영상리스트 url (혹시 몰라서 남겨둡니다.)
-  // const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&relatedToVideoId=${queryKey[1]}&type=video&maxResults=10&key=${key}`;
   const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=${RELATED_VIDEO_COUNT}&q=${title}&key=${key}`;
   const { data } = await axios.get<YoutubeData>(url);
+  console.log(data);
   //! id : {kind, videoId} 이렇게 있어서 id : videoId 이렇게 되게끔 수정한 코드
   //! 이후 본문 코드에 id : videoId 이런식으로 써야하고, 이를 바꾸기 힘들다면 이 코드를 쓰세요
   //! 마지막까지 필요없다면 삭제해주세요
@@ -45,7 +46,7 @@ export const getRelatedVideos = async ({ queryKey }: any) => {
   // })).filter((item: YoutubeVideo, i: number) => i !== 0);
 
   //! id를 수정하지 않은 코드
-  // 첫번째 연관 비디오 === 현재 비디오 따라서 제거합니다.
+  // 연관 비디오데이터를 요청했을때 0번째 데이터느 현재 비디오의 데이터와 동일합니다. 따라서 0번째 값을 제거해줍니다.
   const relatedVideos = data.items.filter(
     (item: YoutubeVideo, i: number) => i !== 0
   );

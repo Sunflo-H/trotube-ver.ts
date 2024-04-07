@@ -20,6 +20,7 @@ const VideoDetail: React.FC = () => {
     queryKey: ["relatedVideos", video.id, title],
     queryFn: getRelatedVideos,
   });
+  console.log(relatedVideos);
 
   // 새 비디오디테일 페이지로 이동했을때 show state를 초기화한다.
   useEffect(() => {
@@ -69,7 +70,10 @@ const VideoDetail: React.FC = () => {
           {relatedVideos && (
             <ul>
               {relatedVideos.map((relatedVideo) => (
-                <RelatedVideoCard video={relatedVideo} key={video.id} />
+                <RelatedVideoCard
+                  video={relatedVideo}
+                  key={relatedVideo.id.videoId}
+                />
               ))}
             </ul>
           )}
