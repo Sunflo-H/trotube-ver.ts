@@ -6,6 +6,7 @@ import { getRelatedVideos } from "../queryFn/youtubeQueries";
 import RelatedVideoCard from "../components/main/VideoDetail/RelatedVideoCard";
 import Channel from "../components/main/VideoDetail/Channel";
 import { Video } from "../userTypes/trotQueriesType";
+import Description from "../components/main/VideoDetail/Description";
 // import Channel from "../components/main/VideoDetailPage/Channel";
 // import Description from "../components/main/VideoDetailPage/Description";
 // import RelatedVideoCard from "../components/main/VideoDetailPage/RelatedVideoCard";
@@ -56,13 +57,13 @@ const VideoDetail: React.FC = () => {
             <div className="px-2 text-xl font-semibold my-4">{title}</div>
             <Channel channelId={channelId} />
 
-            {/* {description && (
+            {description && (
               <Description
                 description={description}
                 show={show}
                 setShow={setShow}
               />
-            )} */}
+            )}
           </div>
         </section>
         <section className="basis-3/12 px-2">

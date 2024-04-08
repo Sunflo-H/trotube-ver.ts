@@ -1,6 +1,12 @@
 import React from "react";
 
-export default function Description({ description, show, setShow }) {
+type Props = {
+  description: string;
+  show: boolean;
+  setShow: React.Dispatch<React.SetStateAction<boolean>>;
+};
+
+const Description: React.FC<Props> = ({ description, show, setShow }) => {
   const handleClick = () => {
     setShow((prev) => !prev);
   };
@@ -32,4 +38,6 @@ export default function Description({ description, show, setShow }) {
       </div>
     </>
   );
-}
+};
+
+export default Description;
