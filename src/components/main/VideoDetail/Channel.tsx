@@ -3,8 +3,6 @@ import axios from "axios";
 import React from "react";
 import { getChannel } from "../../../queryFn/youtubeQueries";
 import { ChannelInfo } from "../../../userTypes/youtubeQueriesType";
-// import Converter from "../../../utils/converter";
-// import { getChannel } from "../../../queryFn/youtubeQueries";
 
 type Props = {
   channelId: string;
@@ -15,10 +13,6 @@ const Channel: React.FC<Props> = ({ channelId }) => {
     queryKey: ["channel", channelId],
     queryFn: getChannel,
   });
-
-  // const converter = new Converter();
-
-  // channel && converter.numberConverter(channel.statistics.subscriberCount);
 
   return (
     <div className="flex items-center my-4 px-2">
