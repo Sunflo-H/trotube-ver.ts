@@ -1,9 +1,7 @@
 import React from "react";
 import Top7 from "../components/main/Home/Top7/Top7";
 import Round from "../components/main/Home/Round/Round";
-// import Round_underMd from "../components/main/HomePage/Round/Round_underMd";
-import { useState } from "react";
-import { ak47 } from "../userTypes/trotQueriesType";
+import Round_mobile from "../components/main/Home/Round/Round_mobile";
 
 const roundList: string[] = [
   `본선 1차전`,
@@ -29,9 +27,9 @@ export default function Home() {
       <div className="md:hidden my-10">
         <p className="text-2xl font-bold">라운드별 모아보기</p>
         <ul className="flex flex-wrap  md:w-auto mt-4 gap-4 font-bold text-gray-900 justify-center ">
-          {/* {roundList.map((round, index) => (
-            <Round_underMd round={round} key={index} />
-          ))} */}
+          {roundList.map((round, index) => (
+            <Round_mobile round={round} key={index} />
+          ))}
         </ul>
       </div>
 
