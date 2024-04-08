@@ -2,18 +2,22 @@ import React from "react";
 
 type Props = {
   description: string;
-  show: boolean;
-  setShow: React.Dispatch<React.SetStateAction<boolean>>;
+  showMoreDescription: boolean;
+  setShowMoreDescription: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
-const Description: React.FC<Props> = ({ description, show, setShow }) => {
+const Description: React.FC<Props> = ({
+  description,
+  showMoreDescription,
+  setShowMoreDescription,
+}) => {
   const handleClick = () => {
-    setShow((prev) => !prev);
+    setShowMoreDescription((prev) => !prev);
   };
   return (
     <>
       <div className=" max-w-full  px-2 ">
-        {show ? (
+        {showMoreDescription ? (
           <div className="bg-gray-100 rounded-2xl mb-4 px-4 pt-3 ">
             <pre className="w-64 sm:w-full text-sm whitespace-pre-wrap truncate ">
               {description}

@@ -7,12 +7,9 @@ import RelatedVideoCard from "../components/main/VideoDetail/RelatedVideoCard";
 import Channel from "../components/main/VideoDetail/Channel";
 import { Video } from "../userTypes/trotQueriesType";
 import Description from "../components/main/VideoDetail/Description";
-// import Channel from "../components/main/VideoDetailPage/Channel";
-// import Description from "../components/main/VideoDetailPage/Description";
-// import RelatedVideoCard from "../components/main/VideoDetailPage/RelatedVideoCard";
 
 const VideoDetail: React.FC = () => {
-  const [show, setShow] = useState(false);
+  const [showMoreDescription, setShowMoreDescription] = useState(false);
   const { state } = useLocation();
   let video: Video = state.video;
   const { channelId, description, title } = video.snippet;
@@ -24,7 +21,7 @@ const VideoDetail: React.FC = () => {
 
   // 새 비디오디테일 페이지로 이동했을때 show state를 초기화한다.
   useEffect(() => {
-    setShow(false);
+    setShowMoreDescription(false);
   }, [video]);
 
   return (
@@ -34,22 +31,18 @@ const VideoDetail: React.FC = () => {
           <iframe
             className="hidden sm:block"
             id="player"
-            // type="text/html"
             width="100%"
             height="640"
             src={`https://www.youtube.com/embed/${video.id}`}
-            frameBorder="0"
             title={title}
             allow="fullscreen"
           ></iframe>
           <iframe
             className=" sm:hidden px-2"
             id="player"
-            // type="text/html"
             width="100%"
             height="300px"
             src={`https://www.youtube.com/embed/${video.id}`}
-            frameBorder="0"
             title={title}
             allow="fullscreen"
           ></iframe>
@@ -60,8 +53,8 @@ const VideoDetail: React.FC = () => {
             {description && (
               <Description
                 description={description}
-                show={show}
-                setShow={setShow}
+                showMoreDescription={showMoreDescription}
+                setShowMoreDescription={setShowMoreDescription}
               />
             )}
           </div>
