@@ -4,19 +4,21 @@ import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 import VideoCard from "../components/UI/VideoCard";
+import { Video } from "../userTypes/trotQueriesType";
+import { YoutubeData } from "../userTypes/youtubeQueriesType";
 // import VideoCard from "../components/common/videos/VideoCard";
 // import { useSelector } from "react-redux";
 // import Loading from "../UI/Loading";
 
 const SearchVideos: React.FC = () => {
-  const [videoList, setVideoList] = useState([]);
-  const [nextPageToken, setNextPageToken] = useState(null);
-  const [requireFetch, setRequireFetch] = useState(false);
-  const { keyword } = useParams();
+  const [videoList, setVideoList] = useState<Video[]>([]);
+  const [nextPageToken, setNextPageToken] = useState<string>("");
+  const [requireFetch, setRequireFetch] = useState<boolean>(false);
+  const { keyword } = useParams<string>();
 
-  // useEffect(() => {
-  //   getVideos();
-  // }, [keyword]);
+  useEffect(() => {
+    getVideos();
+  }, [keyword]);
 
   // useEffect(() => {
   //   if (requireFetch) {
@@ -49,12 +51,12 @@ const SearchVideos: React.FC = () => {
   //   setNextPageToken(data.nextPageToken);
   // }
 
-  // async function getVideos() {
-  //   const data = await fetchYoutubeData(keyword, nextPageToken);
+  async function getVideos(): Promise<void> {
+    const data = await fetchYoutubeData(keyword, nextPageToken);
 
-  //   setVideoList(data.videos);
-  //   setNextPageToken(data.nextPageToken);
-  // }
+    // setVideoList(data.videos);
+    // setNextPageToken(data.nextPageToken);
+  }
 
   // const debounceScroll = debounce(handleInfinityScroll, 300);
   // useEffect(() => {
@@ -68,9 +70,9 @@ const SearchVideos: React.FC = () => {
     <div>
       {videoList && (
         <ul className="grid gap-4 max-w-screen-2xl grid-cols-1 m-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 ">
-          {/* {videoList.map((video) => (
+          {videoList.map((video) => (
             <VideoCard video={video} key={video.id} />
-          ))} */}
+          ))}
         </ul>
       )}
       {/* {requireFetch || <Loading />} */}
@@ -98,23 +100,27 @@ export default SearchVideos;
 //   };
 // }
 
-// const fetchYoutubeData = async (keyword, nextPageToken) => {
-//   const key = process.env.REACT_APP_YOUTUBE_API_KEY;
-//   const SEARCH_RESULT_COUNT = 20;
-//   const url = nextPageToken
-//     ? `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=${SEARCH_RESULT_COUNT}&q=${keyword}&pageToken=${nextPageToken}&key=${key}`
-//     : `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=${SEARCH_RESULT_COUNT}&q=${keyword}&key=${key}`;
-//   const { data } = await axios.get(url);
+const fetchYoutubeData = async (
+  keyword: string | undefined,
+  nextPageToken: string
+) => {
+  const key = process.env.REACT_APP_YOUTUBE_API_KEY;
+  const SEARCH_RESULT_COUNT = 20;
+  const url = nextPageToken
+    ? `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=${SEARCH_RESULT_COUNT}&q=${keyword}&pageToken=${nextPageToken}&key=${key}`
+    : `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=${SEARCH_RESULT_COUNT}&q=${keyword}&key=${key}`;
+  const { data } = await axios.get<YoutubeData>(url);
 
-//   let videos = data.items
-//     .map((item) => {
-//       item.id = item.id.videoId;
-//       return item;
-//     })
-//     .filter((item) => item.id !== undefined); // id 가 undefined인 것들로 인해 key props 에러가 발생합니다. 이 동영상들은 제외 합니다.
+  let videos_id_notUndefined = data.items.filter(
+    (item) => item.id !== undefined
+  ); // id 가 undefined인 것들로 인해 key props 에러가 발생합니다. 이 동영상들은 제외 합니다.
 
-//   return { videos, nextPageToken: data.nextPageToken };
-// };
+  let youtubeData = {
+    videos_id_notUndefined,
+    nextPageToken: data.nextPageToken,
+  };
+  return youtubeData;
+};
 
 //! 목데이터
 // const fetchMocData = async (keyword, nextPageToken) => {
