@@ -5,13 +5,13 @@ import { useEffect } from "react";
 import axios from "axios";
 import VideoCard from "../components/UI/VideoCard";
 import { Video } from "../userTypes/trotQueriesType";
-import { YoutubeData } from "../userTypes/youtubeQueriesType";
+import { YoutubeData, YoutubeVideo } from "../userTypes/youtubeQueriesType";
 // import VideoCard from "../components/common/videos/VideoCard";
 // import { useSelector } from "react-redux";
 // import Loading from "../UI/Loading";
 
 const SearchVideos: React.FC = () => {
-  const [videoList, setVideoList] = useState<Video[]>([]);
+  const [videoList, setVideoList] = useState<YoutubeVideo[]>([]);
   const [nextPageToken, setNextPageToken] = useState<string>("");
   const [requireFetch, setRequireFetch] = useState<boolean>(false);
   const { keyword } = useParams<string>();
@@ -54,8 +54,8 @@ const SearchVideos: React.FC = () => {
   async function getVideos(): Promise<void> {
     const data = await fetchYoutubeData(keyword, nextPageToken);
 
-    // setVideoList(data.videos);
-    // setNextPageToken(data.nextPageToken);
+    setVideoList(data.videos);
+    setNextPageToken(data.nextPageToken);
   }
 
   // const debounceScroll = debounce(handleInfinityScroll, 300);
@@ -71,7 +71,7 @@ const SearchVideos: React.FC = () => {
       {videoList && (
         <ul className="grid gap-4 max-w-screen-2xl grid-cols-1 m-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 ">
           {videoList.map((video) => (
-            <VideoCard video={video} key={video.id} />
+            <VideoCard video={video} key={video.id.videoId} />
           ))}
         </ul>
       )}
@@ -116,7 +116,7 @@ const fetchYoutubeData = async (
   ); // id 가 undefined인 것들로 인해 key props 에러가 발생합니다. 이 동영상들은 제외 합니다.
 
   let youtubeData = {
-    videos_id_notUndefined,
+    videos: videos_id_notUndefined,
     nextPageToken: data.nextPageToken,
   };
   return youtubeData;

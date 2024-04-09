@@ -2,9 +2,10 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { format, render, cancel, register } from "timeago.js";
 import { Video } from "../../userTypes/trotQueriesType";
+import { YoutubeVideo } from "../../userTypes/youtubeQueriesType";
 
 type Props = {
-  video: Video;
+  video: Video | YoutubeVideo;
 };
 
 const VideoCard: React.FC<Props> = ({ video }) => {
