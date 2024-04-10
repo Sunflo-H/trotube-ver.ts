@@ -5,15 +5,19 @@ import { Video } from "../../userTypes/trotQueriesType";
 import { YoutubeVideo } from "../../userTypes/youtubeQueriesType";
 
 type Props = {
-  video: Video | YoutubeVideo;
+  youtubeVideo: YoutubeVideo;
+  top7Videos: Video;
 };
 
-const VideoCard: React.FC<Props> = ({ video }) => {
-  const { channelTitle, publishedAt, title, thumbnails } = video.snippet;
+const VideoCard: React.FC<Props> = ({ youtubeVideo, top7Videos }) => {
+  const { channelTitle, publishedAt, title, thumbnails } =
+    youtubeVideo.snippet && top7Videos.snippet;
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/videos/watch/${video.id}`, { state: { video } });
+    navigate(`/videos/watch/${youtubeVideo.id && top7Videos.id}`, {
+      state: { youtubeVideo, top7Videos },
+    });
     window.scrollTo(0, 0);
   };
 

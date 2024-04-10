@@ -7,11 +7,13 @@ import RelatedVideoCard from "../components/main/VideoDetail/RelatedVideoCard";
 import Channel from "../components/main/VideoDetail/Channel";
 import { Video } from "../userTypes/trotQueriesType";
 import Description from "../components/main/VideoDetail/Description";
+import { YoutubeVideo } from "../userTypes/youtubeQueriesType";
 
 const VideoDetail: React.FC = () => {
   const [showMoreDescription, setShowMoreDescription] = useState(false);
   const { state } = useLocation();
-  let video: Video = state.video;
+  let video: Video | YoutubeVideo = state.video;
+  console.log(video);
   const { channelId, description, title } = video.snippet;
 
   const { data: relatedVideos } = useQuery({

@@ -8,9 +8,7 @@ import {
 
 /**
  * Top 7 멤버 객체 데이터 요청,
- * name:string,
- * songs:any[], rank}
- * @returns data
+ * @returns Members
  */
 const fetchMembers = async (): Promise<Member[]> => {
   const { data: Members } = await axios.get<Member[]>(
