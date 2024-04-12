@@ -30,24 +30,50 @@ const VideoDetail: React.FC = () => {
     <div className="flex justify-center">
       <div className="flex flex-col lg:flex-row max-w-screen-2xl ">
         <section className="basis-9/12 sm:px-2">
-          <iframe
-            className="hidden sm:block"
-            id="player"
-            width="100%"
-            height="640"
-            src={`https://www.youtube.com/embed/${video.id}`}
-            title={title}
-            allow="fullscreen"
-          ></iframe>
-          <iframe
-            className=" sm:hidden px-2"
-            id="player"
-            width="100%"
-            height="300px"
-            src={`https://www.youtube.com/embed/${video.id}`}
-            title={title}
-            allow="fullscreen"
-          ></iframe>
+          {isYoutubeVideo(video) ? (
+            <>
+              <iframe
+                className="hidden sm:block"
+                id="player"
+                width="100%"
+                height="640"
+                src={`https://www.youtube.com/embed/${video.id.videoId}`}
+                title={title}
+                allow="fullscreen"
+              ></iframe>
+              <iframe
+                className=" sm:hidden px-2"
+                id="player"
+                width="100%"
+                height="300px"
+                src={`https://www.youtube.com/embed/${video.id.videoId}`}
+                title={title}
+                allow="fullscreen"
+              ></iframe>
+            </>
+          ) : (
+            <>
+              <iframe
+                className="hidden sm:block"
+                id="player"
+                width="100%"
+                height="640"
+                src={`https://www.youtube.com/embed/${video.id}`}
+                title={title}
+                allow="fullscreen"
+              ></iframe>
+              <iframe
+                className=" sm:hidden px-2"
+                id="player"
+                width="100%"
+                height="300px"
+                src={`https://www.youtube.com/embed/${video.id}`}
+                title={title}
+                allow="fullscreen"
+              ></iframe>
+            </>
+          )}
+
           <div className="w-full">
             <div className="px-2 text-xl font-semibold my-4">{title}</div>
             <Channel channelId={channelId} />
@@ -79,3 +105,10 @@ const VideoDetail: React.FC = () => {
 };
 
 export default VideoDetail;
+
+function isYoutubeVideo(video: Video | YoutubeVideo): video is YoutubeVideo {
+  return (
+    (video as YoutubeVideo).id !== undefined &&
+    (video as YoutubeVideo).id.videoId !== undefined
+  );
+}

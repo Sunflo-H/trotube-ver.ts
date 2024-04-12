@@ -14,12 +14,6 @@ type Props = {
 
 const VideoCard: React.FC<Props> = ({ video }) => {
   const { channelTitle, publishedAt, title, thumbnails } = video.snippet;
-  function isYoutubeVideo(video: Video | YoutubeVideo): video is YoutubeVideo {
-    return (
-      (video as YoutubeVideo).id !== undefined &&
-      (video as YoutubeVideo).id.videoId !== undefined
-    );
-  }
 
   const navigate = useNavigate();
 
@@ -57,3 +51,10 @@ const VideoCard: React.FC<Props> = ({ video }) => {
 };
 
 export default VideoCard;
+
+function isYoutubeVideo(video: Video | YoutubeVideo): video is YoutubeVideo {
+  return (
+    (video as YoutubeVideo).id !== undefined &&
+    (video as YoutubeVideo).id.videoId !== undefined
+  );
+}
