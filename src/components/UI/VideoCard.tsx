@@ -6,9 +6,10 @@ import { YoutubeVideo } from "../../userTypes/youtubeQueriesType";
 
 type Props = {
   // 물음표를 해줘야 props로 전달을 안해줘도 되는구나
+  // 물음표를 해주면 이게 undefined 일수 있다는 에러가 발생하네
   trotVideo?: Video;
   youtubeVideo?: YoutubeVideo;
-  video?: Video | YoutubeVideo;
+  video: Video | YoutubeVideo;
 };
 
 const VideoCard: React.FC<Props> = ({ youtubeVideo, trotVideo, video }) => {
@@ -22,6 +23,22 @@ const VideoCard: React.FC<Props> = ({ youtubeVideo, trotVideo, video }) => {
   //     },
   //   };
   // const { channelTitle, publishedAt, title, thumbnails } = snippet;
+  function isYoutubeVideo(video: Video | YoutubeVideo): video is YoutubeVideo {
+    return (
+      (video as YoutubeVideo).id !== undefined &&
+      (video as YoutubeVideo).id.videoId !== undefined
+    );
+  }
+  //   let result =
+  //   (video as YoutubeVideo).id !== undefined &&
+  //   (video as YoutubeVideo).id.videoId !== undefined;
+  // console.log(result);
+  isYoutubeVideo(video);
+  // if (isYoutubeVideo(video)) {
+  //   console.log("유튜브야~"); // 이제 video.id.videoId를 안전하게 사용할 수 있음
+  // } else {
+  //   console.log("비디오야~"); // Video 타입의 id를 사용할 수 있음
+  // }
   const navigate = useNavigate();
 
   const handleClick = () => {
