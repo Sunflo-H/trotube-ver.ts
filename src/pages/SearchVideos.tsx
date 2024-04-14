@@ -20,14 +20,14 @@ const SearchVideos: React.FC = () => {
     getVideos();
   }, [keyword]);
 
-  // useEffect(() => {
-  //   if (requireFetch) {
-  //     getMoreVideos();
-  //     setRequireFetch(false);
-  //   }
-  // }, [requireFetch]);
+  useEffect(() => {
+    if (requireFetch) {
+      getMoreVideos();
+      setRequireFetch(false);
+    }
+  }, [requireFetch]);
 
-  function handleInfinityScroll() {
+  function handleInfinityScroll(): void {
     const clientHeight = document.documentElement.clientHeight;
     const scrollHeight = document.documentElement.scrollHeight;
     const scrollTop = document.documentElement.scrollTop;
@@ -37,19 +37,21 @@ const SearchVideos: React.FC = () => {
     }
   }
 
-  // async function getMoreVideos() {
-  //   const data = await fetchYoutubeData(keyword, nextPageToken);
+  async function getMoreVideos(): Promise<void> {
+    const data = await fetchYoutubeData(keyword, nextPageToken);
 
-  //   setVideoList((prevVideoList) => {
-  //     // 영상이 중복되는 경우가 있습니다.
-  //     // 중복되는 영상을 제거하는 코드입니다.
-  //     let jsonVideoList = prevVideoList.concat(data.videos).map(JSON.stringify);
-  //     let uniqueVideoList = new Set(jsonVideoList);
-  //     return [...uniqueVideoList].map(JSON.parse);
-  //   });
+    // 영상이 중복되는 경우가 있습니다.
+    // 중복되는 영상을 제거하는 코드입니다.
+    setVideoList((prevVideoList) => {
+      console.log(prevVideoList);
+      return prevVideoList;
+      // let jsonVideoList = prevVideoList.concat(data.videos).map(JSON.stringify);
+      // let uniqueVideoList = new Set(jsonVideoList);
+      // return [...uniqueVideoList].map(JSON.parse);
+    });
 
-  //   setNextPageToken(data.nextPageToken);
-  // }
+    setNextPageToken(data.nextPageToken);
+  }
 
   async function getVideos(): Promise<void> {
     const data = await fetchYoutubeData(keyword, nextPageToken);
@@ -58,13 +60,13 @@ const SearchVideos: React.FC = () => {
     setNextPageToken(data.nextPageToken);
   }
 
-  // const debounceScroll = debounce(handleInfinityScroll, 300);
-  // useEffect(() => {
-  //   window.addEventListener("scroll", debounceScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", debounceScroll);
-  //   };
-  // }, []);
+  const debounceScroll = debounce(handleInfinityScroll, 300);
+  useEffect(() => {
+    window.addEventListener("scroll", debounceScroll);
+    return () => {
+      window.removeEventListener("scroll", debounceScroll);
+    };
+  }, []);
 
   return (
     <div>
@@ -82,23 +84,21 @@ const SearchVideos: React.FC = () => {
 
 export default SearchVideos;
 
+type CallbackFunction = () => void;
 /**
  * 스크롤 이벤트가 너무 많이 실행되는 것을 막아주는 함수
- * @param {*} func
- * @param {*} delay
- * @returns
  */
-// function debounce(func, delay) {
-//   let timerId;
+function debounce(func: any, delay: any) {
+  let timerId: any;
 
-//   return function (...args) {
-//     clearTimeout(timerId);
+  return function (this: any, ...args: any[]) {
+    clearTimeout(timerId);
 
-//     timerId = setTimeout(() => {
-//       func.apply(this, args);
-//     }, delay);
-//   };
-// }
+    timerId = setTimeout(() => {
+      func.apply(this, args);
+    }, delay);
+  };
+}
 
 const fetchYoutubeData = async (
   keyword: string | undefined,
