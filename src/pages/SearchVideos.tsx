@@ -40,14 +40,14 @@ const SearchVideos: React.FC = () => {
   async function getMoreVideos(): Promise<void> {
     const data = await fetchYoutubeData(keyword, nextPageToken);
 
-    // 영상이 중복되는 경우가 있습니다.
-    // 중복되는 영상을 제거하는 코드입니다.
+    // 영상이 중복되는 경우가 있습니다. 중복되는 영상을 제거하는 코드입니다.
+    // 영상을 합친 후 Set으로 중복을 제거합니다.
     setVideoList((prevVideoList) => {
-      console.log(prevVideoList);
-      return prevVideoList;
-      // let jsonVideoList = prevVideoList.concat(data.videos).map(JSON.stringify);
-      // let uniqueVideoList = new Set(jsonVideoList);
-      // return [...uniqueVideoList].map(JSON.parse);
+      let jsonVideoList = prevVideoList
+        .concat(data.videos)
+        .map((video) => JSON.stringify(video));
+      let uniqueVideoList = new Set(jsonVideoList);
+      return [...uniqueVideoList].map((video) => JSON.parse(video));
     });
 
     setNextPageToken(data.nextPageToken);
