@@ -6,6 +6,7 @@ import axios from "axios";
 import VideoCard from "../components/UI/VideoCard";
 import { Video } from "../userTypes/trotQueriesType";
 import { YoutubeData, YoutubeVideo } from "../userTypes/youtubeQueriesType";
+import Loading from "../components/UI/Loading";
 // import VideoCard from "../components/common/videos/VideoCard";
 // import { useSelector } from "react-redux";
 // import Loading from "../UI/Loading";
@@ -32,7 +33,7 @@ const SearchVideos: React.FC = () => {
     const scrollHeight = document.documentElement.scrollHeight;
     const scrollTop = document.documentElement.scrollTop;
 
-    if ((scrollTop + clientHeight) / scrollHeight >= 0.98) {
+    if ((scrollTop + clientHeight) / scrollHeight >= 0.9) {
       setRequireFetch(true);
     }
   }
@@ -77,7 +78,7 @@ const SearchVideos: React.FC = () => {
           ))}
         </ul>
       )}
-      {/* {requireFetch || <Loading />} */}
+      {requireFetch || <Loading />}
     </div>
   );
 };
@@ -121,35 +122,3 @@ const fetchYoutubeData = async (
   };
   return youtubeData;
 };
-
-//! 목데이터
-// const fetchMocData = async (keyword, nextPageToken) => {
-//   console.log(`fetchMocData 에서 사용된 token : ${nextPageToken}`);
-//   let url;
-//   switch (nextPageToken) {
-//     case "CBQQAA":
-//       url = `/data/moc2.json`;
-//       break;
-//     case "CCgQAA":
-//       url = `/data/moc3.json`;
-//       break;
-//     case "CDwQAA":
-//       url = `/data/moc4.json`;
-//       break;
-//     default:
-//       url = `/data/moc1.json`;
-//       break;
-//   }
-
-//   const { data } = await axios.get(url);
-//   let videos = data.items
-//     .map((item) => {
-//       item.id = item.id.videoId;
-//       return item;
-//     })
-//     .filter((item) => item.id !== undefined); // id 가 undefined인 것들로 인해 key props 에러가 발생합니다. 이 동영상들은 제외 합니다.
-
-//   let result = { videos, nextPageToken: data.nextPageToken };
-
-//   return result;
-// };
