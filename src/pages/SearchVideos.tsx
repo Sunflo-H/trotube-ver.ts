@@ -4,12 +4,8 @@ import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 import VideoCard from "../components/UI/VideoCard";
-import { Video } from "../userTypes/trotQueriesType";
 import { YoutubeData, YoutubeVideo } from "../userTypes/youtubeQueriesType";
 import Loading from "../components/UI/Loading";
-// import VideoCard from "../components/common/videos/VideoCard";
-// import { useSelector } from "react-redux";
-// import Loading from "../UI/Loading";
 
 const SearchVideos: React.FC = () => {
   const [videoList, setVideoList] = useState<YoutubeVideo[]>([]);
@@ -21,12 +17,12 @@ const SearchVideos: React.FC = () => {
     getVideos();
   }, [keyword]);
 
-  useEffect(() => {
-    if (requireFetch) {
-      getMoreVideos();
-      setRequireFetch(false);
-    }
-  }, [requireFetch]);
+  // useEffect(() => {
+  //   if (requireFetch) {
+  //     getMoreVideos();
+  //     setRequireFetch(false);
+  //   }
+  // }, [requireFetch]);
 
   function handleInfinityScroll(): void {
     const clientHeight = document.documentElement.clientHeight;
@@ -35,6 +31,7 @@ const SearchVideos: React.FC = () => {
 
     if ((scrollTop + clientHeight) / scrollHeight >= 0.9) {
       setRequireFetch(true);
+      getMoreVideos();
     }
   }
 
@@ -48,7 +45,12 @@ const SearchVideos: React.FC = () => {
         .concat(data.videos)
         .map((video) => JSON.stringify(video));
       let uniqueVideoList = new Set(jsonVideoList);
-      return [...uniqueVideoList].map((video) => JSON.parse(video));
+      // let uniqueVideoList = jsonVideoList;
+
+      let newVideoList: YoutubeVideo[] = [...uniqueVideoList].map((video) =>
+        JSON.parse(video)
+      );
+      return newVideoList;
     });
 
     setNextPageToken(data.nextPageToken);
@@ -73,12 +75,12 @@ const SearchVideos: React.FC = () => {
     <div>
       {videoList && (
         <ul className="grid gap-4 max-w-screen-2xl grid-cols-1 m-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 ">
-          {videoList.map((video) => (
+          {videoList?.map((video) => (
             <VideoCard key={video.id.videoId} video={video} />
           ))}
         </ul>
       )}
-      {requireFetch || <Loading />}
+      {requireFetch && <Loading />}
     </div>
   );
 };
