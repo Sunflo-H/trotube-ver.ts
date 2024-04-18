@@ -7,6 +7,12 @@ import VideoCard from "../components/UI/VideoCard";
 import { YoutubeData, YoutubeVideo } from "../userTypes/youtubeQueriesType";
 import Loading from "../components/UI/Loading";
 
+/**
+ * 고양이 입력 -> useParams로 keyword에 저장 -> keyword가 변경되었으므로 -> getVideos(keyword) 실행
+ * getVideos에서는 fetchVideoData를 실행하여 keyword로 검색 -> {비디오데이터, 넥스트페이지토큰} 얻음
+ * 이 데이터를 videoList에 추가, 넥스트페이지토큰 갱신
+ *
+ */
 const SearchVideos: React.FC = () => {
   const [videoList, setVideoList] = useState<YoutubeVideo[]>([]);
   const [nextPageToken, setNextPageToken] = useState<string>("");
@@ -14,15 +20,15 @@ const SearchVideos: React.FC = () => {
   const { keyword } = useParams<string>();
 
   useEffect(() => {
-    getVideos();
+    getVideos(keyword);
   }, [keyword]);
 
-  // useEffect(() => {
-  //   if (requireFetch) {
-  //     getMoreVideos();
-  //     setRequireFetch(false);
-  //   }
-  // }, [requireFetch]);
+  useEffect(() => {
+    if (requireFetch) {
+      getMoreVideos();
+      setRequireFetch(false);
+    }
+  }, [requireFetch]);
 
   function handleInfinityScroll(): void {
     const clientHeight = document.documentElement.clientHeight;
@@ -54,10 +60,9 @@ const SearchVideos: React.FC = () => {
     });
 
     setNextPageToken(data.nextPageToken);
-    setRequireFetch(false);
   }
 
-  async function getVideos(): Promise<void> {
+  async function getVideos(keyword: string | undefined): Promise<void> {
     const data = await fetchYoutubeData(keyword, nextPageToken);
     // setRequireFetch(true);
     setVideoList(data.videos);
@@ -81,6 +86,7 @@ const SearchVideos: React.FC = () => {
           ))}
         </ul>
       )}
+      {/* <Loading /> */}
       {requireFetch && <Loading />}
     </div>
   );
