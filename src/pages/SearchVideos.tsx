@@ -25,7 +25,7 @@ const SearchVideos: React.FC = () => {
 
   useEffect(() => {
     if (requireFetch) {
-      getMoreVideos();
+      getVideos(keyword);
       setRequireFetch(false);
     }
   }, [requireFetch]);
@@ -37,16 +37,34 @@ const SearchVideos: React.FC = () => {
 
     if ((scrollTop + clientHeight) / scrollHeight >= 0.9) {
       setRequireFetch(true);
-      getMoreVideos();
+      getVideos(keyword);
     }
   }
 
-  async function getMoreVideos(): Promise<void> {
-    const data = await fetchYoutubeData(keyword, nextPageToken);
-    console.log(data);
+  // async function getMoreVideos(): Promise<void> {
+  //   const data = await fetchYoutubeData(keyword, nextPageToken);
+  //   console.log(data);
 
-    // 영상이 중복되는 경우가 있습니다. 중복되는 영상을 제거하는 코드입니다.
-    // 영상을 합친 후 Set으로 중복을 제거합니다.
+  //   // 영상이 중복되는 경우가 있습니다. 중복되는 영상을 제거하는 코드입니다.
+  //   // 영상을 합친 후 Set으로 중복을 제거합니다.
+  //   setVideoList((prevVideoList) => {
+  //     let jsonVideoList = prevVideoList
+  //       .concat(data.videos)
+  //       .map((video) => JSON.stringify(video));
+  //     let uniqueVideoList = new Set(jsonVideoList);
+
+  //     let newVideoList: YoutubeVideo[] = [...uniqueVideoList].map((video) =>
+  //       JSON.parse(video)
+  //     );
+  //     return newVideoList;
+  //   });
+
+  //   setNextPageToken(data.nextPageToken);
+  // }
+
+  async function getVideos(keyword: string | undefined): Promise<void> {
+    const data = await fetchYoutubeData(keyword, nextPageToken);
+    // setRequireFetch(true);
     setVideoList((prevVideoList) => {
       let jsonVideoList = prevVideoList
         .concat(data.videos)
@@ -58,14 +76,6 @@ const SearchVideos: React.FC = () => {
       );
       return newVideoList;
     });
-
-    setNextPageToken(data.nextPageToken);
-  }
-
-  async function getVideos(keyword: string | undefined): Promise<void> {
-    const data = await fetchYoutubeData(keyword, nextPageToken);
-    // setRequireFetch(true);
-    setVideoList(data.videos);
     setNextPageToken(data.nextPageToken);
   }
 
