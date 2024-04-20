@@ -20,12 +20,12 @@ const SearchVideos: React.FC = () => {
   const { keyword } = useParams<string>();
 
   useEffect(() => {
-    getVideos(keyword);
+    updateVideoListAndNextPageToken(keyword);
   }, [keyword]);
 
   useEffect(() => {
     if (requireFetch) {
-      getVideos(keyword);
+      updateVideoListAndNextPageToken(keyword);
       setRequireFetch(false);
     }
   }, [requireFetch]);
@@ -37,32 +37,16 @@ const SearchVideos: React.FC = () => {
 
     if ((scrollTop + clientHeight) / scrollHeight >= 0.9) {
       setRequireFetch(true);
-      getVideos(keyword);
+      updateVideoListAndNextPageToken(keyword);
     }
   }
 
-  // async function getMoreVideos(): Promise<void> {
-  //   const data = await fetchYoutubeData(keyword, nextPageToken);
-  //   console.log(data);
-
-  //   // 영상이 중복되는 경우가 있습니다. 중복되는 영상을 제거하는 코드입니다.
-  //   // 영상을 합친 후 Set으로 중복을 제거합니다.
-  //   setVideoList((prevVideoList) => {
-  //     let jsonVideoList = prevVideoList
-  //       .concat(data.videos)
-  //       .map((video) => JSON.stringify(video));
-  //     let uniqueVideoList = new Set(jsonVideoList);
-
-  //     let newVideoList: YoutubeVideo[] = [...uniqueVideoList].map((video) =>
-  //       JSON.parse(video)
-  //     );
-  //     return newVideoList;
-  //   });
-
-  //   setNextPageToken(data.nextPageToken);
-  // }
-
-  async function getVideos(keyword: string | undefined): Promise<void> {
+  /**
+   *  fetchYoutubeData로 유튜브 데이터를 얻어, videoList, nextPageToken을 업데이트하는 함수
+   */
+  async function updateVideoListAndNextPageToken(
+    keyword: string | undefined
+  ): Promise<void> {
     const data = await fetchYoutubeData(keyword, nextPageToken);
     // setRequireFetch(true);
     setVideoList((prevVideoList) => {
