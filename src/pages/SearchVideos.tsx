@@ -26,12 +26,15 @@ const SearchVideos: React.FC = () => {
     updateVideoListAndNextPageToken(keyword);
   }, [keyword]);
 
-  useEffect(() => {
+  useDidMountEffect(() => {
     if (requireFetch) {
       updateVideoListAndNextPageToken(keyword);
-      setRequireFetch(false);
     }
   }, [requireFetch]);
+
+  useDidMountEffect(() => {
+    setRequireFetch(false);
+  }, [videoList]);
 
   function handleInfinityScroll(): void {
     const clientHeight = document.documentElement.clientHeight;
@@ -57,7 +60,6 @@ const SearchVideos: React.FC = () => {
       let jsonVideoList = prevVideoList
         .concat(data.videos)
         .map((video) => JSON.stringify(video));
-      console.log(jsonVideoList);
       let uniqueVideoList = new Set(jsonVideoList);
 
       let newVideoList: YoutubeVideo[] = [...uniqueVideoList].map((video) =>
@@ -65,8 +67,8 @@ const SearchVideos: React.FC = () => {
       );
       return newVideoList;
     });
-
     setNextPageToken(data.nextPageToken);
+    // setRequireFetch(true);
   }
 
   const debounceScroll = debounce(handleInfinityScroll, 300);
