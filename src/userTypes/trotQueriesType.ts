@@ -13,8 +13,6 @@ export type Song = {
 
 export type Members = Member[];
 
-export type ak47 = string;
-
 // 로컬 비디오 데이터를 불러왔을 때 items에 있는 데이터들
 export type Video = {
   contentDetails: ContentDetails;
