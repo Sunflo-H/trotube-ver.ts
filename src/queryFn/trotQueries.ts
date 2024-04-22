@@ -1,10 +1,5 @@
-import axios, { AxiosResponse } from "axios";
-import {
-  Member,
-  Members,
-  RoundData,
-  Video,
-} from "../userTypes/trotQueriesType";
+import axios from "axios";
+import { Member, RoundData, Video } from "../userTypes/trotQueriesType";
 
 /**
  * Top 7 멤버 객체 데이터 요청,
