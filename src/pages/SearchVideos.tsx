@@ -56,7 +56,7 @@ const SearchVideos: React.FC = () => {
     const data = await fetchYoutubeData(keyword, nextPageToken);
 
     setVideoList((prevVideoList) => {
-      //객체의 json문자열화
+      //객체의 json문자열화 -> set을 적용하기 위함
       let jsonVideoList = prevVideoList
         .concat(data.videos)
         .map((video) => JSON.stringify(video));
@@ -68,7 +68,6 @@ const SearchVideos: React.FC = () => {
       return newVideoList;
     });
     setNextPageToken(data.nextPageToken);
-    // setRequireFetch(true);
   }
 
   const debounceScroll = debounce(handleInfinityScroll, 300);
@@ -97,14 +96,13 @@ const SearchVideos: React.FC = () => {
 
 export default SearchVideos;
 
-type CallbackFunction = () => void;
 /**
  * 스크롤 이벤트가 너무 많이 실행되는 것을 막아주는 함수
  */
-function debounce(func: any, delay: any) {
+function debounce(func: () => void, delay: number) {
   let timerId: any;
 
-  return function (this: any, ...args: any[]) {
+  return function (this: any, ...args: []) {
     clearTimeout(timerId);
 
     timerId = setTimeout(() => {
