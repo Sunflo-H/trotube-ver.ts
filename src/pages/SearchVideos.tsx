@@ -8,14 +8,6 @@ import { YoutubeData, YoutubeVideo } from "../userTypes/youtubeQueriesType";
 import Loading from "../components/UI/Loading";
 import useDidMountEffect from "../hooks/useDidMountEffect";
 
-/**
- * 고양이 입력 -> useParams로 keyword에 저장 -> keyword가 변경되었으므로 -> updateVideoListAndNextPageToken(keyword) 실행
- * updateVideoListAndNextPageToken에서는 fetchYoutubeData를 실행하여 keyword로 youtube검색 -> {비디오데이터, 넥스트페이지토큰} 얻음
- * 이 데이터를 videoList에 추가, 넥스트페이지토큰 갱신
- *
- * 스크롤을 내리면 handleInfinityScroll
- *
- */
 const SearchVideos: React.FC = () => {
   const [videoList, setVideoList] = useState<YoutubeVideo[]>([]);
   const [nextPageToken, setNextPageToken] = useState<string>("");
@@ -125,9 +117,10 @@ const fetchYoutubeData = async (
     : `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=${SEARCH_RESULT_COUNT}&q=${keyword}&key=${key}`;
   const { data } = await axios.get<YoutubeData>(url);
 
+  // id 가 undefined인 것들로 인해 key props 에러가 발생합니다. 이 동영상들은 제외 합니다.
   let videos_id_notUndefined = data.items.filter(
     (item) => item.id !== undefined
-  ); // id 가 undefined인 것들로 인해 key props 에러가 발생합니다. 이 동영상들은 제외 합니다.
+  );
 
   let youtubeData = {
     videos: videos_id_notUndefined,

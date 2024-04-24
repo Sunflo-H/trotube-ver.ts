@@ -1,4 +1,3 @@
-import React from "react";
 import { useLocation } from "react-router-dom";
 import VideoCard from "../components/UI/VideoCard";
 import { Song } from "../userTypes/trotQueriesType";

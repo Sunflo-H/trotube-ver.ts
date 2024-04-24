@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Video } from "../../../userTypes/trotQueriesType";
 import { YoutubeVideo } from "../../../userTypes/youtubeQueriesType";
 
 type Props = {

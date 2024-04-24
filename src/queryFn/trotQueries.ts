@@ -3,21 +3,17 @@ import { Top7Singer, RoundData, Video } from "../userTypes/trotQueriesType";
 
 /**
  * Top 7 멤버 객체 데이터 요청,
- * @returns Members
  */
 const fetchMembers = async (): Promise<Top7Singer[]> => {
   const { data: members } = await axios.get<Top7Singer[]>(
     "/data/mrtrot1/member.json"
   );
-  console.log(members);
   return members;
 };
 
 /**
  * Round 데이터 요청
- * @returns
  */
-
 let fetchVideosByRound = async ({ queryKey }: any): Promise<Video[]> => {
   const round = queryKey[1];
   const url = `/data/mrtrot1/${round}.json`;

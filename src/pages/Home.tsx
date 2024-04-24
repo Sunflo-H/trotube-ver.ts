@@ -1,4 +1,3 @@
-import React from "react";
 import Top7 from "../components/main/Home/Top7/Top7";
 import Round from "../components/main/Home/Round/Round";
 import Round_mobile from "../components/main/Home/Round/Round_mobile";
