@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
-import { Member } from "../../../../userTypes/trotQueriesType";
+import { Top7Singer } from "../../../../userTypes/trotQueriesType";
 
 type Props = {
-  member: Member;
+  member: Top7Singer;
 };
 
 const Top7Card: React.FC<Props> = ({ member }) => {

@@ -19,7 +19,7 @@ const Round: React.FC<Props> = ({ round }) => {
   });
 
   const handleClick: React.MouseEventHandler<HTMLDivElement> = () => {
-    // navigate(`/videos/round/${round}`, { state: videos });
+    navigate(`/videos/round/${round}`, { state: videos });
     window.scrollTo(0, 0);
   };
 
@@ -29,7 +29,7 @@ const Round: React.FC<Props> = ({ round }) => {
         <div className="text-2xl font-semibold">{round}</div>
         <div className="hidden lg:block opacity-90 ml-auto">더보기</div>
       </div>
-      {/* <RoundVideos_sample videos={videos} /> */}
+      <RoundVideos_sample videos={videos} />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-export type Member = {
+export type Top7Singer = {
   name: string;
   songs: Song[];
   rank: string;
@@ -10,8 +10,6 @@ export type Song = {
   kind: string;
   pageInfo: { totalResults: number; resultsPerPage: number };
 };
-
-export type Members = Member[];
 
 // 로컬 비디오 데이터를 불러왔을 때 items에 있는 데이터들
 export type Video = {

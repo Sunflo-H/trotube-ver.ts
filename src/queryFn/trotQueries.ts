@@ -1,12 +1,12 @@
 import axios from "axios";
-import { Member, RoundData, Video } from "../userTypes/trotQueriesType";
+import { Top7Singer, RoundData, Video } from "../userTypes/trotQueriesType";
 
 /**
  * Top 7 멤버 객체 데이터 요청,
  * @returns Members
  */
-const fetchMembers = async (): Promise<Member[]> => {
-  const { data: members } = await axios.get<Member[]>(
+const fetchMembers = async (): Promise<Top7Singer[]> => {
+  const { data: members } = await axios.get<Top7Singer[]>(
     "/data/mrtrot1/member.json"
   );
   console.log(members);
