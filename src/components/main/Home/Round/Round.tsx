@@ -12,21 +12,24 @@ type Props = {
 const Round: React.FC<Props> = ({ round }) => {
   const navigate = useNavigate();
   const roundStr_noSpace = round.replace(" ", "");
+
   const { data: videos } = useQuery<Video[]>({
     queryKey: ["roundVideos", roundStr_noSpace],
     queryFn: fetchVideosByRound,
   });
+
   const handleClick: React.MouseEventHandler<HTMLDivElement> = () => {
-    navigate(`/videos/round/${round}`, { state: videos });
+    // navigate(`/videos/round/${round}`, { state: videos });
     window.scrollTo(0, 0);
   };
+
   return (
     <div className="my-10 ">
       <div className="flex items-end px-4 cursor-pointer" onClick={handleClick}>
         <div className="text-2xl font-semibold">{round}</div>
         <div className="hidden lg:block opacity-90 ml-auto">더보기</div>
       </div>
-      <RoundVideos_sample videos={videos} />
+      {/* <RoundVideos_sample videos={videos} /> */}
     </div>
   );
 };

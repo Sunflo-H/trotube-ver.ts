@@ -9,12 +9,10 @@ const App: React.FC = () => {
 
   return (
     <>
-      {/* <Provider store={store}> */}
       <Header />
       <QueryClientProvider client={queryClient}>
         <Outlet />
       </QueryClientProvider>
-      {/* </Provider> */}
     </>
   );
 };

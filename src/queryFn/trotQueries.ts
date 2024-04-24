@@ -6,10 +6,11 @@ import { Member, RoundData, Video } from "../userTypes/trotQueriesType";
  * @returns Members
  */
 const fetchMembers = async (): Promise<Member[]> => {
-  const { data: Members } = await axios.get<Member[]>(
+  const { data: members } = await axios.get<Member[]>(
     "/data/mrtrot1/member.json"
   );
-  return Members;
+  console.log(members);
+  return members;
 };
 
 /**

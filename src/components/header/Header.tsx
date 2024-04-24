@@ -1,22 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { BsSearch, BsYoutube } from "react-icons/bs";
-// import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate, useParams } from "react-router-dom";
-// import { setKeyword } from "../../features/search/searchSlice";
 
-//! Redux 코드가 필요 없다면 추후 삭제 바람
 export default function SearchHeader() {
   const navigate = useNavigate();
   const { keyword } = useParams();
   const [text, setText] = useState("");
-  // const dispatch = useDispatch();
 
   const handleSubmit: React.FormEventHandler<HTMLFormElement> = (
     e: React.FormEvent<HTMLFormElement>
   ) => {
     e.preventDefault();
     navigate(`/videos/${text}`);
-    // dispatch(setKeyword(text));
     setText("");
   };
 

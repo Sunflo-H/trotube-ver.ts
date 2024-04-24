@@ -1,5 +1,4 @@
 import { useQuery } from "@tanstack/react-query";
-import axios from "axios";
 import React from "react";
 import { getChannel } from "../../../queryFn/youtubeQueries";
 import { ChannelInfo } from "../../../userTypes/youtubeQueriesType";
