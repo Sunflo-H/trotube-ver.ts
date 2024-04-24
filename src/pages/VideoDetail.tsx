@@ -13,7 +13,6 @@ const VideoDetail: React.FC = () => {
   const [showMoreDescription, setShowMoreDescription] = useState(false);
   const { state } = useLocation();
   let video: Video | YoutubeVideo = state.video;
-  console.log(video);
   const { channelId, description, title } = video.snippet;
 
   const { data: relatedVideos } = useQuery({

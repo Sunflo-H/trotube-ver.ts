@@ -2,15 +2,15 @@ import { useNavigate } from "react-router-dom";
 import { Top7Singer } from "../../../../userTypes/trotQueriesType";
 
 type Props = {
-  member: Top7Singer;
+  top7Singer: Top7Singer;
 };
 
-const Top7Card: React.FC<Props> = ({ member }) => {
-  const { name, rank } = member;
+const Top7Card: React.FC<Props> = ({ top7Singer }) => {
+  const { name, rank } = top7Singer;
   const navigate = useNavigate();
   const handleClick = () => {
     navigate(`/videos/top7/${name}`, {
-      state: { member },
+      state: { top7Singer },
     });
   };
 
