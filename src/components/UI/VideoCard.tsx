@@ -5,10 +5,6 @@ import { Video } from "../../userTypes/trotQueriesType";
 import { YoutubeVideo } from "../../userTypes/youtubeQueriesType";
 
 type Props = {
-  // 물음표를 해줘야 props로 전달을 안해줘도 되는구나
-  // 물음표를 해주면 이게 undefined 일수 있다는 에러가 발생하네
-  // trotVideo?: Video;
-  // youtubeVideo?: YoutubeVideo;
   video: Video | YoutubeVideo;
 };
 
