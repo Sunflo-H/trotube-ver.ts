@@ -9,7 +9,7 @@ const roundList: string[] = [
   `준결승전`,
   `결승전`,
 ];
-
+console.log("테스트 1");
 export default function Home() {
   return (
     <div className=" relative w-full h-full px-4 ">
