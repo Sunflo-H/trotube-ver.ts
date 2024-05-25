@@ -46,7 +46,7 @@ const SearchVideos: React.FC = () => {
     keyword: string | undefined
   ): Promise<void> {
     const data = await fetchYoutubeData(keyword, nextPageToken);
-
+    console.log(data);
     setVideoList((prevVideoList) => {
       //객체의 json문자열화 -> set을 적용하기 위함
       let jsonVideoList = prevVideoList
