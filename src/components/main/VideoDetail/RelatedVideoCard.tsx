@@ -7,6 +7,7 @@ type Props = {
 };
 
 const RelatedVideoCard: React.FC<Props> = ({ video }) => {
+  const { videoId } = video.id;
   const { channelTitle, publishedAt, title, thumbnails } = video.snippet;
 
   const navigate = useNavigate();
@@ -17,7 +18,11 @@ const RelatedVideoCard: React.FC<Props> = ({ video }) => {
   };
 
   return (
-    <li className="cursor-pointer flex mb-2 " onClick={handleClick}>
+    <li
+      className="cursor-pointer flex mb-2 "
+      onClick={handleClick}
+      key={videoId}
+    >
       <img
         src={thumbnails.medium.url}
         alt={title}

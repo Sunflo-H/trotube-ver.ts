@@ -15,7 +15,7 @@ const SearchVideos: React.FC = () => {
   const { keyword } = useParams<string>();
 
   useDidMountEffect(() => {
-    updateVideoListAndNextPageToken(keyword);
+    updateVideoListByKeyword(keyword);
   }, [keyword]);
 
   useDidMountEffect(() => {
@@ -46,7 +46,7 @@ const SearchVideos: React.FC = () => {
     keyword: string | undefined
   ): Promise<void> {
     const data = await fetchYoutubeData(keyword, nextPageToken);
-    console.log(data);
+    // console.log(data);
     setVideoList((prevVideoList) => {
       //객체의 json문자열화 -> set을 적용하기 위함
       let jsonVideoList = prevVideoList
@@ -60,6 +60,11 @@ const SearchVideos: React.FC = () => {
       return newVideoList;
     });
     setNextPageToken(data.nextPageToken);
+  }
+
+  async function updateVideoListByKeyword(keyword: string | undefined) {
+    const data = await fetchYoutubeData(keyword, nextPageToken);
+    setVideoList(data.videos);
   }
 
   const debounceScroll = debounce(handleInfinityScroll, 300);

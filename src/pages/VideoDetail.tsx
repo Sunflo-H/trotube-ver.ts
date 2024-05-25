@@ -89,10 +89,7 @@ const VideoDetail: React.FC = () => {
           {relatedVideos && (
             <ul>
               {relatedVideos.map((relatedVideo) => (
-                <RelatedVideoCard
-                  video={relatedVideo}
-                  key={relatedVideo.id.videoId}
-                />
+                <RelatedVideoCard video={relatedVideo} />
               ))}
             </ul>
           )}
