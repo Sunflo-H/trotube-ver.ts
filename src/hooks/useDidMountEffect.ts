@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
  * useEffect를 대신하는 hook
  * 첫 렌더링할 때 실행되지 않는다.
  */
-const useDidMountEffect = (func, deps) => {
+const useDidMountEffect = (func: any, deps: any) => {
   const didMount = useRef(false);
 
   useEffect(() => {
