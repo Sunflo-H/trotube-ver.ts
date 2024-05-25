@@ -73,14 +73,14 @@ const SearchVideos: React.FC = () => {
 
   return (
     <div>
-      {videoList && (
+      {/* {videoList && (
         <ul className="grid gap-4 max-w-screen-2xl grid-cols-1 m-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 ">
           {videoList?.map((video) => (
             <VideoCard key={video.id.videoId} video={video} />
           ))}
         </ul>
-      )}
-      {/* <Loading /> */}
+      )} */}
+      하이하이
       {requireFetch && <Loading />}
     </div>
   );
