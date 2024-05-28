@@ -3,10 +3,9 @@ import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
-import VideoCard from "../components/UI/VideoCard";
 import { YoutubeData, YoutubeVideo } from "../userTypes/youtubeQueriesType";
 import Loading from "../components/UI/Loading";
-import useDidMountEffect from "../hooks/useDidMountEffect";
+import VideoCard from "../components/UI/VideoCard";
 
 const SearchVideos: React.FC = () => {
   const [videoList, setVideoList] = useState<YoutubeVideo[]>([]);
