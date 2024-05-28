@@ -14,17 +14,17 @@ const SearchVideos: React.FC = () => {
   const [requireFetch, setRequireFetch] = useState<boolean>(false);
   const { keyword } = useParams<string>();
 
-  useDidMountEffect(() => {
+  useEffect(() => {
     updateVideoListByKeyword(keyword);
   }, [keyword]);
 
-  useDidMountEffect(() => {
+  useEffect(() => {
     if (requireFetch) {
       updateVideoListAndNextPageToken(keyword);
     }
   }, [requireFetch]);
 
-  useDidMountEffect(() => {
+  useEffect(() => {
     setRequireFetch(false);
   }, [videoList]);
 
