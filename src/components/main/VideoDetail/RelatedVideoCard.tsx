@@ -10,6 +10,8 @@ const RelatedVideoCard: React.FC<Props> = ({ video }) => {
   const { videoId } = video.id;
   const { channelTitle, publishedAt, title, thumbnails } = video.snippet;
 
+  const title_removeHashTag = title.replace("#", "");
+
   const navigate = useNavigate();
 
   const handleClick = () => {
